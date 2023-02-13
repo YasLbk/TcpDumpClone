@@ -1,0 +1,1494 @@
+Capturing packets from the file telnet_p4.pcap 
+
+--------------------------------------------------------------------------------------------
+#Frame Number 1 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 60
+
+---------------Transmission Control Protocol
+Flags: 0x02 (SYN)  Src port: 56760   ,Dst port: 23  ,Seq: -623959595  ,Ack: 0  Window size value: 5840  Checksum: 0x7110  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 2 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 60
+
+---------------Transmission Control Protocol
+Flags: 0x12 (SYN) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777646  ,Ack: -623959594  Window size value: 5792  Checksum: 0xdf33  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 3 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959594  ,Ack: 1835777647  Window size value: 46  Checksum: 0x246c  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 4 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 79
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959594  ,Ack: 1835777647  Window size value: 46  Checksum: 0x84e0  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 5 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777647  ,Ack: -623959567  Window size value: 2896  Checksum: 0x192f  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 6 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 64
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777647  ,Ack: -623959567  Window size value: 2896  Checksum: 0xe1d6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 7 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959567  ,Ack: 1835777659  Window size value: 46  Checksum: 0x2443  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 8 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 91
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777659  ,Ack: -623959567  Window size value: 2896  Checksum: 0x3e39  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 9 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959567  ,Ack: 1835777698  Window size value: 46  Checksum: 0x241c  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 10 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 132
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959567  ,Ack: 1835777698  Window size value: 46  Checksum: 0x8515  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 11 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 55
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777698  ,Ack: -623959487  Window size value: 2896  Checksum: 0x179f  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 12 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 55
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959487  ,Ack: 1835777701  Window size value: 46  Checksum: 0x84c8  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 13 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 55
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777701  ,Ack: -623959484  Window size value: 2896  Checksum: 0x1799  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 14 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 55
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959484  ,Ack: 1835777704  Window size value: 46  Checksum: 0x84c8  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 15 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 59
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777704  ,Ack: -623959481  Window size value: 2896  Checksum: 0xb677  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 16 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959481  ,Ack: 1835777711  Window size value: 46  Checksum: 0x23b0  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 17 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959481  ,Ack: 1835777711  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 18 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777711  ,Ack: -623959480  Window size value: 2896  Checksum: 0xa422  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 19 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959480  ,Ack: 1835777712  Window size value: 46  Checksum: 0x234d  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 20 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959480  ,Ack: 1835777712  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 21 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777712  ,Ack: -623959479  Window size value: 2896  Checksum: 0xb312  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 22 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959479  ,Ack: 1835777713  Window size value: 46  Checksum: 0x233d  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 23 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959479  ,Ack: 1835777713  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 24 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777713  ,Ack: -623959478  Window size value: 2896  Checksum: 0xa4ee  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 25 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959478  ,Ack: 1835777714  Window size value: 46  Checksum: 0x2319  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 26 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959478  ,Ack: 1835777714  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 27 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777714  ,Ack: -623959477  Window size value: 2896  Checksum: 0xa3d9  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 28 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959477  ,Ack: 1835777715  Window size value: 46  Checksum: 0x2304  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 29 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 54
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959477  ,Ack: 1835777715  Window size value: 46  Checksum: 0x84c7  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 30 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 54
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777715  ,Ack: -623959475  Window size value: 2896  Checksum: 0x0a39  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 31 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959475  ,Ack: 1835777717  Window size value: 46  Checksum: 0x226d  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 32 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 62
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777717  ,Ack: -623959475  Window size value: 2896  Checksum: 0x2f6e  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 33 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959475  ,Ack: 1835777727  Window size value: 46  Checksum: 0x225f  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 34 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959475  ,Ack: 1835777727  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 35 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777727  ,Ack: -623959474  Window size value: 2896  Checksum: 0x16f8  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 36 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959474  ,Ack: 1835777727  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 37 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777727  ,Ack: -623959473  Window size value: 2896  Checksum: 0x16db  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 38 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959473  ,Ack: 1835777727  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 39 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777727  ,Ack: -623959472  Window size value: 2896  Checksum: 0x16c4  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 40 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959472  ,Ack: 1835777727  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 41 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777727  ,Ack: -623959471  Window size value: 2896  Checksum: 0x1699  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 42 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959471  ,Ack: 1835777727  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 43 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777727  ,Ack: -623959470  Window size value: 2896  Checksum: 0x1684  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 44 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959470  ,Ack: 1835777727  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 45 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777727  ,Ack: -623959469  Window size value: 2896  Checksum: 0x166b  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 46 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959469  ,Ack: 1835777727  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 47 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777727  ,Ack: -623959468  Window size value: 2896  Checksum: 0x1646  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 48 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 54
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959468  ,Ack: 1835777727  Window size value: 46  Checksum: 0x84c7  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 49 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777727  ,Ack: -623959466  Window size value: 2896  Checksum: 0x15d5  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 50 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 54
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777727  ,Ack: -623959466  Window size value: 2896  Checksum: 0x08c1  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 51 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959466  ,Ack: 1835777729  Window size value: 46  Checksum: 0x20f5  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 52 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 54
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777729  ,Ack: -623959466  Window size value: 2896  Checksum: 0xf199  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 53 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959466  ,Ack: 1835777731  Window size value: 46  Checksum: 0x20d6  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 54 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959466  ,Ack: 1835777731  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 55 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777731  ,Ack: -623959465  Window size value: 2896  Checksum: 0xa031  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 56 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959465  ,Ack: 1835777732  Window size value: 46  Checksum: 0x205c  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 57 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959465  ,Ack: 1835777732  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 58 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777732  ,Ack: -623959464  Window size value: 2896  Checksum: 0xa707  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 59 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959464  ,Ack: 1835777733  Window size value: 46  Checksum: 0x2032  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 60 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959464  ,Ack: 1835777733  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 61 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777733  ,Ack: -623959463  Window size value: 2896  Checksum: 0xb3f7  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 62 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959463  ,Ack: 1835777734  Window size value: 46  Checksum: 0x2022  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 63 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959463  ,Ack: 1835777734  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 64 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777734  ,Ack: -623959462  Window size value: 2896  Checksum: 0xa7df  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 65 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959462  ,Ack: 1835777735  Window size value: 46  Checksum: 0x200a  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 66 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959462  ,Ack: 1835777735  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 67 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777735  ,Ack: -623959461  Window size value: 2896  Checksum: 0xafcd  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 68 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959461  ,Ack: 1835777736  Window size value: 46  Checksum: 0x1ff8  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 69 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959461  ,Ack: 1835777736  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 70 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777736  ,Ack: -623959460  Window size value: 2896  Checksum: 0xf4b5  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 71 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959460  ,Ack: 1835777737  Window size value: 46  Checksum: 0x1fe0  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 72 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959460  ,Ack: 1835777737  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 73 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777737  ,Ack: -623959459  Window size value: 2896  Checksum: 0xe799  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 74 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959459  ,Ack: 1835777738  Window size value: 46  Checksum: 0x1fc4  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 75 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959459  ,Ack: 1835777738  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 76 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777738  ,Ack: -623959458  Window size value: 2896  Checksum: 0xb37d  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 77 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959458  ,Ack: 1835777739  Window size value: 46  Checksum: 0x1fa8  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 78 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 54
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959458  ,Ack: 1835777739  Window size value: 46  Checksum: 0x84c7  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 79 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 54
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777739  ,Ack: -623959456  Window size value: 2896  Checksum: 0x06a0  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 80 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959456  ,Ack: 1835777741  Window size value: 46  Checksum: 0x1ed4  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 81 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 127
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777741  ,Ack: -623959456  Window size value: 2896  Checksum: 0x0253  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 82 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959456  ,Ack: 1835777816  Window size value: 46  Checksum: 0x1e85  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 83 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 54
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777816  ,Ack: -623959456  Window size value: 2896  Checksum: 0xef38  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 84 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959456  ,Ack: 1835777818  Window size value: 46  Checksum: 0x1e83  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 85 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959456  ,Ack: 1835777818  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 86 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x38 (PSH) (ACK) (URG)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777818  ,Ack: -623959455  Window size value: 2896  Checksum: 0x13ff  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 87 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959455  ,Ack: 1835777819  Window size value: 46  Checksum: 0x1e4b  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 88 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777819  ,Ack: -623959455  Window size value: 2896  Checksum: 0x211f  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 89 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959455  ,Ack: 1835777820  Window size value: 46  Checksum: 0x1e4a  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 90 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 54
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777820  ,Ack: -623959455  Window size value: 2896  Checksum: 0x0614  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 91 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959455  ,Ack: 1835777822  Window size value: 46  Checksum: 0x1e48  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 92 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 54
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777822  ,Ack: -623959455  Window size value: 2896  Checksum: 0xeefb  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 93 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959455  ,Ack: 1835777824  Window size value: 46  Checksum: 0x1e46  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 94 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959455  ,Ack: 1835777824  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 95 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777824  ,Ack: -623959454  Window size value: 2896  Checksum: 0xa84b  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 96 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959454  ,Ack: 1835777825  Window size value: 46  Checksum: 0x1876  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 97 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959454  ,Ack: 1835777825  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 98 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777825  ,Ack: -623959453  Window size value: 2896  Checksum: 0x9521  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 99 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959453  ,Ack: 1835777826  Window size value: 46  Checksum: 0x184c  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 100 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959453  ,Ack: 1835777826  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 101 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777826  ,Ack: -623959452  Window size value: 2896  Checksum: 0xa409  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 102 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959452  ,Ack: 1835777827  Window size value: 46  Checksum: 0x1834  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 103 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959452  ,Ack: 1835777827  Window size value: 46  Checksum: 0x84c6  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 104 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 53
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777827  ,Ack: -623959451  Window size value: 2896  Checksum: 0x98ed  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 105 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959451  ,Ack: 1835777828  Window size value: 46  Checksum: 0x1818  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 106 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 54
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959451  ,Ack: 1835777828  Window size value: 46  Checksum: 0x84c7  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 107 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 54
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777828  ,Ack: -623959449  Window size value: 2896  Checksum: 0xffcd  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 108 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959449  ,Ack: 1835777830  Window size value: 46  Checksum: 0x1802  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 109 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 60
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777830  ,Ack: -623959449  Window size value: 2896  Checksum: 0xb671  
+
+-----------------------TELNET
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 110 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959449  ,Ack: 1835777838  Window size value: 46  Checksum: 0x17f9  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 111 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x11 (FIN) (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777838  ,Ack: -623959449  Window size value: 2896  Checksum: 0x0cd6  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 112 
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x11 (FIN) (ACK)  Src port: 56760   ,Dst port: 23  ,Seq: -623959449  ,Ack: 1835777839  Window size value: 46  Checksum: 0x17f7  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 113 
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140  
+	IHL: 20 bytes
+ 	Type of service: 0x10
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 23   ,Dst port: 56760  ,Seq: 1835777839  ,Ack: -623959448  Window size value: 2896  Checksum: 0x0cd5  
+
+
+
+
+
+Finished !! Thank you , Au revoir !

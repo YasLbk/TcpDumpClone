@@ -1,0 +1,5859 @@
+Capturing packets from the file telnet_p4.pcap 
+
+*****************************************Packet Number 1*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 3c 41 30 40 00 40 06   74 dd c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   21 d5 00 00 00 00 a0 02 |
+	| 16 d0 71 10 00 00 02 04   05 b4 04 02 08 0a 00 27 |
+	| 60 e5 00 00 00 00 01 03   03 07 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 60
+Identification: 0x4130 (16688)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74dd
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007701
+Acknowledgment number: 0
+Flags: 0x02 (SYN)
+Window size value: 5840
+Checksum: 0x7110
+Urgent pointer: 0
+Options: (20 bytes) 
+	Kind: maximum segment size (2)
+		Length: 4
+		MSS value: 1460
+	Kind: SACK permited (4)
+		Length: 2
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580709
+		Timestamp echo reply: 0
+	Kind: No-Operation (1)
+	Kind: windows scale (3)
+		Length: 3
+		Shift count: 7
+
+
+
+*****************************************Packet Number 2*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 00 |
+	| 00 3c 00 00 40 00 40 06   b6 1d c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be 6e da cf 21 d6 a0 12 |
+	| 16 a0 df 33 00 00 02 04   05 b4 04 02 08 0a 03 9d |
+	| 62 8a 00 27 60 e5 01 03   03 01 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 60
+Identification: 0x0000 (0)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xb61d
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777646
+Acknowledgment number: 3671007702
+Flags: 0x12 (SYN) (ACK)
+Window size value: 5792
+Checksum: 0xdf33
+Urgent pointer: 0
+Options: (20 bytes) 
+	Kind: maximum segment size (2)
+		Length: 4
+		MSS value: 1460
+	Kind: SACK permited (4)
+		Length: 2
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646026
+		Timestamp echo reply: 2580709
+	Kind: No-Operation (1)
+	Kind: windows scale (3)
+		Length: 3
+		Shift count: 1
+
+
+
+*****************************************Packet Number 3*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 31 40 00 40 06   74 e4 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   21 d6 6d 6b be 6f 80 10 |
+	| 00 2e 24 6c 00 00 01 01   08 0a 00 27 60 e5 03 9d |
+	| 62 8a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4131 (16689)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74e4
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007702
+Acknowledgment number: 1835777647
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x246c
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580709
+		Timestamp echo reply: 60646026
+
+
+
+*****************************************Packet Number 4*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 4f 41 32 40 00 40 06   74 c8 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   21 d6 6d 6b be 6f 80 18 |
+	| 00 2e 84 e0 00 00 01 01   08 0a 00 27 60 e5 03 9d |
+	| 62 8a ff fd 03 ff fb 18   ff fb 1f ff fb 20 ff fb |
+	| 21 ff fb 22 ff fb 27 ff   fd 05 ff fb 23 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 79
+Identification: 0x4132 (16690)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74c8
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007702
+Acknowledgment number: 1835777647
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84e0
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580709
+		Timestamp echo reply: 60646026
+
+-----------------------TELNET
+Command :DO (253)
+	Subcommand: Suppress go ahead 
+Command :WILL (251)
+	Subcommand: Terminal type 
+Command :WILL (251)
+	Subcommand: Window sz 
+Command :WILL (251)
+	Subcommand: Terminal speed 
+Command :WILL (251)
+	Subcommand: Remote flow control 
+Command :WILL (251)
+	Subcommand: Linemode 
+Command :WILL (251)
+	Subcommand: New environment option 
+Command :DO (253)
+	Subcommand: Status 
+Command :WILL (251)
+	Subcommand: X display location
+
+
+
+
+*****************************************Packet Number 5*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 00 |
+	| 00 34 dc e5 40 00 40 06   d9 3f c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be 6f da cf 21 f1 80 10 |
+	| 0b 50 19 2f 00 00 01 01   08 0a 03 9d 62 8a 00 27 |
+	| 60 e5 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xdce5 (56549)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd93f
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777647
+Acknowledgment number: 3671007729
+Flags: 0x10 (ACK)
+Window size value: 2896
+Checksum: 0x192f
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646026
+		Timestamp echo reply: 2580709
+
+
+
+*****************************************Packet Number 6*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 40 dc e6 40 00 40 06   d9 22 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be 6f da cf 21 f1 80 18 |
+	| 0b 50 e1 d6 00 00 01 01   08 0a 03 9d 62 8b 00 27 |
+	| 60 e5 ff fd 18 ff fd 20   ff fd 23 ff fd 27 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 64
+Identification: 0xdce6 (56550)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd922
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777647
+Acknowledgment number: 3671007729
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xe1d6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646027
+		Timestamp echo reply: 2580709
+
+-----------------------TELNET
+Command :DO (253)
+	Subcommand: Terminal type 
+Command :DO (253)
+	Subcommand: Terminal speed 
+Command :DO (253)
+	Subcommand: X display location
+Command :DO (253)
+	Subcommand: New environment option 
+
+
+
+
+*****************************************Packet Number 7*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 33 40 00 40 06   74 e2 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   21 f1 6d 6b be 7b 80 10 |
+	| 00 2e 24 43 00 00 01 01   08 0a 00 27 60 e6 03 9d |
+	| 62 8b 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4133 (16691)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74e2
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007729
+Acknowledgment number: 1835777659
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x2443
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580710
+		Timestamp echo reply: 60646027
+
+
+
+*****************************************Packet Number 8*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 5b dc e7 40 00 40 06   d9 06 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be 7b da cf 21 f1 80 18 |
+	| 0b 50 3e 39 00 00 01 01   08 0a 03 9d 62 8b 00 27 |
+	| 60 e6 ff fb 03 ff fd 1f   ff fd 21 ff fe 22 ff fb |
+	| 05 ff fa 20 01 ff f0 ff   fa 23 01 ff f0 ff fa 27 |
+	| 01 ff f0 ff fa 18 01 ff   f0 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 91
+Identification: 0xdce7 (56551)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd906
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777659
+Acknowledgment number: 3671007729
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0x3e39
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646027
+		Timestamp echo reply: 2580710
+
+-----------------------TELNET
+Command :WILL (251)
+	Subcommand: Suppress go ahead 
+Command :DO (253)
+	Subcommand: Window sz 
+Command :DO (253)
+	Subcommand: Remote flow control 
+Command :DON'T (254)
+	Subcommand: Linemode 
+Command :WILL (251)
+	Subcommand: Status 
+Command :Suboption (250)
+	Subcommand: Terminal speed 
+	Subcommand: Echo 
+Command :Suboption End (240)
+Command :Suboption (250)
+	Subcommand: X display location
+	Subcommand: Echo 
+Command :Suboption End (240)
+Command :Suboption (250)
+	Subcommand: New environment option 
+	Subcommand: Echo 
+Command :Suboption End (240)
+Command :Suboption (250)
+	Subcommand: Terminal type 
+	Subcommand: Echo 
+Command :Suboption End (240)
+
+
+
+
+*****************************************Packet Number 9*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 34 40 00 40 06   74 e1 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   21 f1 6d 6b be a2 80 10 |
+	| 00 2e 24 1c 00 00 01 01   08 0a 00 27 60 e6 03 9d |
+	| 62 8b 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4134 (16692)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74e1
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007729
+Acknowledgment number: 1835777698
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x241c
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580710
+		Timestamp echo reply: 60646027
+
+
+
+*****************************************Packet Number 10*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 84 41 35 40 00 40 06   74 90 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   21 f1 6d 6b be a2 80 18 |
+	| 00 2e 85 15 00 00 01 01   08 0a 00 27 60 e6 03 9d |
+	| 62 8b ff fa 1f 00 50 00   18 ff f0 ff fa 20 00 33 |
+	| 38 34 30 30 2c 33 38 34   30 30 ff f0 ff fa 23 00 |
+	| 53 61 6e 64 62 6f 78 3a   30 2e 30 ff f0 ff fa 27 |
+	| 00 00 44 49 53 50 4c 41   59 01 53 61 6e 64 62 6f |
+	| 78 3a 30 2e 30 ff f0 ff   fa 18 00 78 74 65 72 6d |
+	| ff f0 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 132
+Identification: 0x4135 (16693)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x7490
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007729
+Acknowledgment number: 1835777698
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x8515
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580710
+		Timestamp echo reply: 60646027
+
+-----------------------TELNET
+Command :Suboption (250)
+	Subcommand: Window sz 
+	Subcommand:  transmission P
+	Subcommand:  transmission 
+	Subcommand: Terminal type 
+Command :Suboption End (240)
+Command :Suboption (250)
+	Subcommand: Terminal speed 
+	Subcommand:  transmission 38400,38400
+Command :Suboption End (240)
+Command :Suboption (250)
+	Subcommand: X display location
+	Subcommand:  transmission Sandbox:0.0
+Command :Suboption End (240)
+Command :Suboption (250)
+	Subcommand: New environment option 
+	Subcommand:  transmission 
+	Subcommand:  transmission DISPLAY
+	Subcommand: Echo Sandbox:0.0
+Command :Suboption End (240)
+Command :Suboption (250)
+	Subcommand: Terminal type 
+	Subcommand:  transmission xterm
+Command :Suboption End (240)
+
+
+
+
+*****************************************Packet Number 11*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 37 dc e8 40 00 40 06   d9 29 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be a2 da cf 22 41 80 18 |
+	| 0b 50 17 9f 00 00 01 01   08 0a 03 9d 62 8d 00 27 |
+	| 60 e6 ff fd 01 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 55
+Identification: 0xdce8 (56552)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd929
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777698
+Acknowledgment number: 3671007809
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0x179f
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646029
+		Timestamp echo reply: 2580710
+
+-----------------------TELNET
+Command :DO (253)
+	Subcommand: Echo 
+
+
+
+
+*****************************************Packet Number 12*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 37 41 36 40 00 40 06   74 dc c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 41 6d 6b be a5 80 18 |
+	| 00 2e 84 c8 00 00 01 01   08 0a 00 27 60 e8 03 9d |
+	| 62 8d ff fc 01 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 55
+Identification: 0x4136 (16694)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74dc
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007809
+Acknowledgment number: 1835777701
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c8
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580712
+		Timestamp echo reply: 60646029
+
+-----------------------TELNET
+Command :WON'T (252)
+	Subcommand: Echo 
+
+
+
+
+*****************************************Packet Number 13*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 37 dc e9 40 00 40 06   d9 28 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be a5 da cf 22 44 80 18 |
+	| 0b 50 17 99 00 00 01 01   08 0a 03 9d 62 8d 00 27 |
+	| 60 e8 ff fb 01 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 55
+Identification: 0xdce9 (56553)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd928
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777701
+Acknowledgment number: 3671007812
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0x1799
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646029
+		Timestamp echo reply: 2580712
+
+-----------------------TELNET
+Command :WILL (251)
+	Subcommand: Echo 
+
+
+
+
+*****************************************Packet Number 14*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 37 41 37 40 00 40 06   74 db c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 44 6d 6b be a8 80 18 |
+	| 00 2e 84 c8 00 00 01 01   08 0a 00 27 60 e8 03 9d |
+	| 62 8d ff fd 01 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 55
+Identification: 0x4137 (16695)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74db
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007812
+Acknowledgment number: 1835777704
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c8
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580712
+		Timestamp echo reply: 60646029
+
+-----------------------TELNET
+Command :DO (253)
+	Subcommand: Echo 
+
+
+
+
+*****************************************Packet Number 15*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 3b dc ea 40 00 40 06   d9 23 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be a8 da cf 22 47 80 18 |
+	| 0b 50 b6 77 00 00 01 01   08 0a 03 9d 62 8d 00 27 |
+	| 60 e8 6c 6f 67 69 6e 3a   20 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 59
+Identification: 0xdcea (56554)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd923
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777704
+Acknowledgment number: 3671007815
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xb677
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646029
+		Timestamp echo reply: 2580712
+
+-----------------------TELNET
+Data : login: 
+
+
+
+*****************************************Packet Number 16*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 38 40 00 40 06   74 dd c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 47 6d 6b be af 80 10 |
+	| 00 2e 23 b0 00 00 01 01   08 0a 00 27 60 ed 03 9d |
+	| 62 8d 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4138 (16696)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74dd
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007815
+Acknowledgment number: 1835777711
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x23b0
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580717
+		Timestamp echo reply: 60646029
+
+
+
+*****************************************Packet Number 17*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 39 40 00 40 06   74 db c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 47 6d 6b be af 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 61 1b 03 9d |
+	| 62 8d 74 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4139 (16697)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74db
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007815
+Acknowledgment number: 1835777711
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580763
+		Timestamp echo reply: 60646029
+
+-----------------------TELNET
+Data : t
+
+
+
+*****************************************Packet Number 18*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dc eb 40 00 40 06   d9 28 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be af da cf 22 48 80 18 |
+	| 0b 50 a4 22 00 00 01 01   08 0a 03 9d 62 c0 00 27 |
+	| 61 1b 74 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdceb (56555)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd928
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777711
+Acknowledgment number: 3671007816
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xa422
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646080
+		Timestamp echo reply: 2580763
+
+-----------------------TELNET
+Data : t
+
+
+
+*****************************************Packet Number 19*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 3a 40 00 40 06   74 db c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 48 6d 6b be b0 80 10 |
+	| 00 2e 23 4d 00 00 01 01   08 0a 00 27 61 1b 03 9d |
+	| 62 c0 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x413a (16698)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74db
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007816
+Acknowledgment number: 1835777712
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x234d
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580763
+		Timestamp echo reply: 60646080
+
+
+
+*****************************************Packet Number 20*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 3b 40 00 40 06   74 d9 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 48 6d 6b be b0 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 61 22 03 9d |
+	| 62 c0 65 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x413b (16699)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74d9
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007816
+Acknowledgment number: 1835777712
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580770
+		Timestamp echo reply: 60646080
+
+-----------------------TELNET
+Data : e
+
+
+
+*****************************************Packet Number 21*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dc ec 40 00 40 06   d9 27 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be b0 da cf 22 49 80 18 |
+	| 0b 50 b3 12 00 00 01 01   08 0a 03 9d 62 c7 00 27 |
+	| 61 22 65 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdcec (56556)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd927
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777712
+Acknowledgment number: 3671007817
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xb312
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646087
+		Timestamp echo reply: 2580770
+
+-----------------------TELNET
+Data : e
+
+
+
+*****************************************Packet Number 22*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 3c 40 00 40 06   74 d9 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 49 6d 6b be b1 80 10 |
+	| 00 2e 23 3d 00 00 01 01   08 0a 00 27 61 22 03 9d |
+	| 62 c7 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x413c (16700)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74d9
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007817
+Acknowledgment number: 1835777713
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x233d
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580770
+		Timestamp echo reply: 60646087
+
+
+
+*****************************************Packet Number 23*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 3d 40 00 40 06   74 d7 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 49 6d 6b be b1 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 61 33 03 9d |
+	| 62 c7 73 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x413d (16701)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74d7
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007817
+Acknowledgment number: 1835777713
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580787
+		Timestamp echo reply: 60646087
+
+-----------------------TELNET
+Data : s
+
+
+
+*****************************************Packet Number 24*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dc ed 40 00 40 06   d9 26 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be b1 da cf 22 4a 80 18 |
+	| 0b 50 a4 ee 00 00 01 01   08 0a 03 9d 62 d8 00 27 |
+	| 61 33 73 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdced (56557)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd926
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777713
+Acknowledgment number: 3671007818
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xa4ee
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646104
+		Timestamp echo reply: 2580787
+
+-----------------------TELNET
+Data : s
+
+
+
+*****************************************Packet Number 25*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 3e 40 00 40 06   74 d7 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 4a 6d 6b be b2 80 10 |
+	| 00 2e 23 19 00 00 01 01   08 0a 00 27 61 33 03 9d |
+	| 62 d8 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x413e (16702)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74d7
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007818
+Acknowledgment number: 1835777714
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x2319
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580787
+		Timestamp echo reply: 60646104
+
+
+
+*****************************************Packet Number 26*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 3f 40 00 40 06   74 d5 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 4a 6d 6b be b2 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 61 3d 03 9d |
+	| 62 d8 74 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x413f (16703)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74d5
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007818
+Acknowledgment number: 1835777714
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580797
+		Timestamp echo reply: 60646104
+
+-----------------------TELNET
+Data : t
+
+
+
+*****************************************Packet Number 27*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dc ee 40 00 40 06   d9 25 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be b2 da cf 22 4b 80 18 |
+	| 0b 50 a3 d9 00 00 01 01   08 0a 03 9d 62 e1 00 27 |
+	| 61 3d 74 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdcee (56558)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd925
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777714
+Acknowledgment number: 3671007819
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xa3d9
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646113
+		Timestamp echo reply: 2580797
+
+-----------------------TELNET
+Data : t
+
+
+
+*****************************************Packet Number 28*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 40 40 00 40 06   74 d5 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 4b 6d 6b be b3 80 10 |
+	| 00 2e 23 04 00 00 01 01   08 0a 00 27 61 3d 03 9d |
+	| 62 e1 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4140 (16704)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74d5
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007819
+Acknowledgment number: 1835777715
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x2304
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580797
+		Timestamp echo reply: 60646113
+
+
+
+*****************************************Packet Number 29*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 36 41 41 40 00 40 06   74 d2 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 4b 6d 6b be b3 80 18 |
+	| 00 2e 84 c7 00 00 01 01   08 0a 00 27 61 86 03 9d |
+	| 62 e1 0d 00 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 54
+Identification: 0x4141 (16705)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74d2
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007819
+Acknowledgment number: 1835777715
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c7
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580870
+		Timestamp echo reply: 60646113
+
+-----------------------TELNET
+Data :  
+
+
+
+*****************************************Packet Number 30*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 36 dc ef 40 00 40 06   d9 23 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be b3 da cf 22 4d 80 18 |
+	| 0b 50 0a 39 00 00 01 01   08 0a 03 9d 63 2b 00 27 |
+	| 61 86 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 54
+Identification: 0xdcef (56559)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd923
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777715
+Acknowledgment number: 3671007821
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0x0a39
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646187
+		Timestamp echo reply: 2580870
+
+-----------------------TELNET
+Data : 
+
+
+
+
+*****************************************Packet Number 31*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 42 40 00 40 06   74 d3 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 4d 6d 6b be b5 80 10 |
+	| 00 2e 22 6d 00 00 01 01   08 0a 00 27 61 86 03 9d |
+	| 63 2b 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4142 (16706)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74d3
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007821
+Acknowledgment number: 1835777717
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x226d
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580870
+		Timestamp echo reply: 60646187
+
+
+
+*****************************************Packet Number 32*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 3e dc f0 40 00 40 06   d9 1a c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be b5 da cf 22 4d 80 18 |
+	| 0b 50 2f 6e 00 00 01 01   08 0a 03 9d 63 2d 00 27 |
+	| 61 86 50 61 73 73 77 6f   72 64 3a 20 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 62
+Identification: 0xdcf0 (56560)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd91a
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777717
+Acknowledgment number: 3671007821
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0x2f6e
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646189
+		Timestamp echo reply: 2580870
+
+-----------------------TELNET
+Data : Password: 
+
+
+
+*****************************************Packet Number 33*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 43 40 00 40 06   74 d2 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 4d 6d 6b be bf 80 10 |
+	| 00 2e 22 5f 00 00 01 01   08 0a 00 27 61 88 03 9d |
+	| 63 2d 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4143 (16707)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74d2
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007821
+Acknowledgment number: 1835777727
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x225f
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580872
+		Timestamp echo reply: 60646189
+
+
+
+*****************************************Packet Number 34*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 44 40 00 40 06   74 d0 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 4d 6d 6b be bf 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 61 a8 03 9d |
+	| 63 2d 63 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4144 (16708)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74d0
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007821
+Acknowledgment number: 1835777727
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580904
+		Timestamp echo reply: 60646189
+
+-----------------------TELNET
+Data : c
+
+
+
+*****************************************Packet Number 35*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 34 dc f1 40 00 40 06   d9 23 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be bf da cf 22 4e 80 10 |
+	| 0b 50 16 f8 00 00 01 01   08 0a 03 9d 63 51 00 27 |
+	| 61 a8 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0xdcf1 (56561)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd923
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777727
+Acknowledgment number: 3671007822
+Flags: 0x10 (ACK)
+Window size value: 2896
+Checksum: 0x16f8
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646225
+		Timestamp echo reply: 2580904
+
+
+
+*****************************************Packet Number 36*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 45 40 00 40 06   74 cf c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 4e 6d 6b be bf 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 61 b8 03 9d |
+	| 63 51 61 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4145 (16709)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74cf
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007822
+Acknowledgment number: 1835777727
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580920
+		Timestamp echo reply: 60646225
+
+-----------------------TELNET
+Data : a
+
+
+
+*****************************************Packet Number 37*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 34 dc f2 40 00 40 06   d9 22 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be bf da cf 22 4f 80 10 |
+	| 0b 50 16 db 00 00 01 01   08 0a 03 9d 63 5d 00 27 |
+	| 61 b8 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0xdcf2 (56562)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd922
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777727
+Acknowledgment number: 3671007823
+Flags: 0x10 (ACK)
+Window size value: 2896
+Checksum: 0x16db
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646237
+		Timestamp echo reply: 2580920
+
+
+
+*****************************************Packet Number 38*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 46 40 00 40 06   74 ce c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 4f 6d 6b be bf 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 61 c3 03 9d |
+	| 63 5d 70 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4146 (16710)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74ce
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007823
+Acknowledgment number: 1835777727
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580931
+		Timestamp echo reply: 60646237
+
+-----------------------TELNET
+Data : p
+
+
+
+*****************************************Packet Number 39*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 34 dc f3 40 00 40 06   d9 21 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be bf da cf 22 50 80 10 |
+	| 0b 50 16 c4 00 00 01 01   08 0a 03 9d 63 68 00 27 |
+	| 61 c3 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0xdcf3 (56563)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd921
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777727
+Acknowledgment number: 3671007824
+Flags: 0x10 (ACK)
+Window size value: 2896
+Checksum: 0x16c4
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646248
+		Timestamp echo reply: 2580931
+
+
+
+*****************************************Packet Number 40*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 47 40 00 40 06   74 cd c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 50 6d 6b be bf 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 61 d8 03 9d |
+	| 63 68 74 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4147 (16711)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74cd
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007824
+Acknowledgment number: 1835777727
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580952
+		Timestamp echo reply: 60646248
+
+-----------------------TELNET
+Data : t
+
+
+
+*****************************************Packet Number 41*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 34 dc f4 40 00 40 06   d9 20 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be bf da cf 22 51 80 10 |
+	| 0b 50 16 99 00 00 01 01   08 0a 03 9d 63 7d 00 27 |
+	| 61 d8 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0xdcf4 (56564)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd920
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777727
+Acknowledgment number: 3671007825
+Flags: 0x10 (ACK)
+Window size value: 2896
+Checksum: 0x1699
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646269
+		Timestamp echo reply: 2580952
+
+
+
+*****************************************Packet Number 42*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 48 40 00 40 06   74 cc c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 51 6d 6b be bf 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 61 e2 03 9d |
+	| 63 7d 75 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4148 (16712)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74cc
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007825
+Acknowledgment number: 1835777727
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580962
+		Timestamp echo reply: 60646269
+
+-----------------------TELNET
+Data : u
+
+
+
+*****************************************Packet Number 43*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 34 dc f5 40 00 40 06   d9 1f c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be bf da cf 22 52 80 10 |
+	| 0b 50 16 84 00 00 01 01   08 0a 03 9d 63 87 00 27 |
+	| 61 e2 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0xdcf5 (56565)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd91f
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777727
+Acknowledgment number: 3671007826
+Flags: 0x10 (ACK)
+Window size value: 2896
+Checksum: 0x1684
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646279
+		Timestamp echo reply: 2580962
+
+
+
+*****************************************Packet Number 44*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 49 40 00 40 06   74 cb c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 52 6d 6b be bf 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 61 ee 03 9d |
+	| 63 87 72 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4149 (16713)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74cb
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007826
+Acknowledgment number: 1835777727
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580974
+		Timestamp echo reply: 60646279
+
+-----------------------TELNET
+Data : r
+
+
+
+*****************************************Packet Number 45*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 34 dc f6 40 00 40 06   d9 1e c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be bf da cf 22 53 80 10 |
+	| 0b 50 16 6b 00 00 01 01   08 0a 03 9d 63 93 00 27 |
+	| 61 ee 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0xdcf6 (56566)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd91e
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777727
+Acknowledgment number: 3671007827
+Flags: 0x10 (ACK)
+Window size value: 2896
+Checksum: 0x166b
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646291
+		Timestamp echo reply: 2580974
+
+
+
+*****************************************Packet Number 46*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 4a 40 00 40 06   74 ca c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 53 6d 6b be bf 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 62 00 03 9d |
+	| 63 93 65 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x414a (16714)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74ca
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007827
+Acknowledgment number: 1835777727
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2580992
+		Timestamp echo reply: 60646291
+
+-----------------------TELNET
+Data : e
+
+
+
+*****************************************Packet Number 47*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 34 dc f7 40 00 40 06   d9 1d c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be bf da cf 22 54 80 10 |
+	| 0b 50 16 46 00 00 01 01   08 0a 03 9d 63 a5 00 27 |
+	| 62 00 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0xdcf7 (56567)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd91d
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777727
+Acknowledgment number: 3671007828
+Flags: 0x10 (ACK)
+Window size value: 2896
+Checksum: 0x1646
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646309
+		Timestamp echo reply: 2580992
+
+
+
+*****************************************Packet Number 48*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 36 41 4b 40 00 40 06   74 c8 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 54 6d 6b be bf 80 18 |
+	| 00 2e 84 c7 00 00 01 01   08 0a 00 27 62 38 03 9d |
+	| 63 a5 0d 00 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 54
+Identification: 0x414b (16715)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74c8
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007828
+Acknowledgment number: 1835777727
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c7
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581048
+		Timestamp echo reply: 60646309
+
+-----------------------TELNET
+Data :  
+
+
+
+*****************************************Packet Number 49*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 34 dc f8 40 00 40 06   d9 1c c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be bf da cf 22 56 80 10 |
+	| 0b 50 15 d5 00 00 01 01   08 0a 03 9d 63 dc 00 27 |
+	| 62 38 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0xdcf8 (56568)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd91c
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777727
+Acknowledgment number: 3671007830
+Flags: 0x10 (ACK)
+Window size value: 2896
+Checksum: 0x15d5
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646364
+		Timestamp echo reply: 2581048
+
+
+
+*****************************************Packet Number 50*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 36 dc f9 40 00 40 06   d9 19 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be bf da cf 22 56 80 18 |
+	| 0b 50 08 c1 00 00 01 01   08 0a 03 9d 63 dc 00 27 |
+	| 62 38 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 54
+Identification: 0xdcf9 (56569)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd919
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777727
+Acknowledgment number: 3671007830
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0x08c1
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646364
+		Timestamp echo reply: 2581048
+
+-----------------------TELNET
+Data : 
+
+
+
+
+*****************************************Packet Number 51*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 4c 40 00 40 06   74 c9 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 56 6d 6b be c1 80 10 |
+	| 00 2e 20 f5 00 00 01 01   08 0a 00 27 62 38 03 9d |
+	| 63 dc 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x414c (16716)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74c9
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007830
+Acknowledgment number: 1835777729
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x20f5
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581048
+		Timestamp echo reply: 60646364
+
+
+
+*****************************************Packet Number 52*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 36 dc fa 40 00 40 06   d9 18 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be c1 da cf 22 56 80 18 |
+	| 0b 50 f1 99 00 00 01 01   08 0a 03 9d 63 eb 00 27 |
+	| 62 38 24 20 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 54
+Identification: 0xdcfa (56570)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd918
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777729
+Acknowledgment number: 3671007830
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xf199
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646379
+		Timestamp echo reply: 2581048
+
+-----------------------TELNET
+Data : $ 
+
+
+
+*****************************************Packet Number 53*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 4d 40 00 40 06   74 c8 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 56 6d 6b be c3 80 10 |
+	| 00 2e 20 d6 00 00 01 01   08 0a 00 27 62 46 03 9d |
+	| 63 eb 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x414d (16717)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74c8
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007830
+Acknowledgment number: 1835777731
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x20d6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581062
+		Timestamp echo reply: 60646379
+
+
+
+*****************************************Packet Number 54*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 4e 40 00 40 06   74 c6 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 56 6d 6b be c3 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 62 82 03 9d |
+	| 63 eb 75 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x414e (16718)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74c6
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007830
+Acknowledgment number: 1835777731
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581122
+		Timestamp echo reply: 60646379
+
+-----------------------TELNET
+Data : u
+
+
+
+*****************************************Packet Number 55*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dc fb 40 00 40 06   d9 18 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be c3 da cf 22 57 80 18 |
+	| 0b 50 a0 31 00 00 01 01   08 0a 03 9d 64 27 00 27 |
+	| 62 82 75 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdcfb (56571)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd918
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777731
+Acknowledgment number: 3671007831
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xa031
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646439
+		Timestamp echo reply: 2581122
+
+-----------------------TELNET
+Data : u
+
+
+
+*****************************************Packet Number 56*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 4f 40 00 40 06   74 c6 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 57 6d 6b be c4 80 10 |
+	| 00 2e 20 5c 00 00 01 01   08 0a 00 27 62 82 03 9d |
+	| 64 27 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x414f (16719)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74c6
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007831
+Acknowledgment number: 1835777732
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x205c
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581122
+		Timestamp echo reply: 60646439
+
+
+
+*****************************************Packet Number 57*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 50 40 00 40 06   74 c4 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 57 6d 6b be c4 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 62 96 03 9d |
+	| 64 27 6e 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4150 (16720)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74c4
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007831
+Acknowledgment number: 1835777732
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581142
+		Timestamp echo reply: 60646439
+
+-----------------------TELNET
+Data : n
+
+
+
+*****************************************Packet Number 58*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dc fc 40 00 40 06   d9 17 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be c4 da cf 22 58 80 18 |
+	| 0b 50 a7 07 00 00 01 01   08 0a 03 9d 64 3b 00 27 |
+	| 62 96 6e 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdcfc (56572)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd917
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777732
+Acknowledgment number: 3671007832
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xa707
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646459
+		Timestamp echo reply: 2581142
+
+-----------------------TELNET
+Data : n
+
+
+
+*****************************************Packet Number 59*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 51 40 00 40 06   74 c4 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 58 6d 6b be c5 80 10 |
+	| 00 2e 20 32 00 00 01 01   08 0a 00 27 62 96 03 9d |
+	| 64 3b 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4151 (16721)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74c4
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007832
+Acknowledgment number: 1835777733
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x2032
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581142
+		Timestamp echo reply: 60646459
+
+
+
+*****************************************Packet Number 60*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 52 40 00 40 06   74 c2 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 58 6d 6b be c5 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 62 9d 03 9d |
+	| 64 3b 61 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4152 (16722)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74c2
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007832
+Acknowledgment number: 1835777733
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581149
+		Timestamp echo reply: 60646459
+
+-----------------------TELNET
+Data : a
+
+
+
+*****************************************Packet Number 61*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dc fd 40 00 40 06   d9 16 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be c5 da cf 22 59 80 18 |
+	| 0b 50 b3 f7 00 00 01 01   08 0a 03 9d 64 42 00 27 |
+	| 62 9d 61 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdcfd (56573)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd916
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777733
+Acknowledgment number: 3671007833
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xb3f7
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646466
+		Timestamp echo reply: 2581149
+
+-----------------------TELNET
+Data : a
+
+
+
+*****************************************Packet Number 62*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 53 40 00 40 06   74 c2 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 59 6d 6b be c6 80 10 |
+	| 00 2e 20 22 00 00 01 01   08 0a 00 27 62 9d 03 9d |
+	| 64 42 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4153 (16723)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74c2
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007833
+Acknowledgment number: 1835777734
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x2022
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581149
+		Timestamp echo reply: 60646466
+
+
+
+*****************************************Packet Number 63*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 54 40 00 40 06   74 c0 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 59 6d 6b be c6 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 62 a8 03 9d |
+	| 64 42 6d 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4154 (16724)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74c0
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007833
+Acknowledgment number: 1835777734
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581160
+		Timestamp echo reply: 60646466
+
+-----------------------TELNET
+Data : m
+
+
+
+*****************************************Packet Number 64*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dc fe 40 00 40 06   d9 15 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be c6 da cf 22 5a 80 18 |
+	| 0b 50 a7 df 00 00 01 01   08 0a 03 9d 64 4d 00 27 |
+	| 62 a8 6d 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdcfe (56574)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd915
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777734
+Acknowledgment number: 3671007834
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xa7df
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646477
+		Timestamp echo reply: 2581160
+
+-----------------------TELNET
+Data : m
+
+
+
+*****************************************Packet Number 65*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 55 40 00 40 06   74 c0 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 5a 6d 6b be c7 80 10 |
+	| 00 2e 20 0a 00 00 01 01   08 0a 00 27 62 a8 03 9d |
+	| 64 4d 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4155 (16725)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74c0
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007834
+Acknowledgment number: 1835777735
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x200a
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581160
+		Timestamp echo reply: 60646477
+
+
+
+*****************************************Packet Number 66*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 56 40 00 40 06   74 be c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 5a 6d 6b be c7 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 62 b0 03 9d |
+	| 64 4d 65 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4156 (16726)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74be
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007834
+Acknowledgment number: 1835777735
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581168
+		Timestamp echo reply: 60646477
+
+-----------------------TELNET
+Data : e
+
+
+
+*****************************************Packet Number 67*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dc ff 40 00 40 06   d9 14 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be c7 da cf 22 5b 80 18 |
+	| 0b 50 af cd 00 00 01 01   08 0a 03 9d 64 55 00 27 |
+	| 62 b0 65 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdcff (56575)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd914
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777735
+Acknowledgment number: 3671007835
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xafcd
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646485
+		Timestamp echo reply: 2581168
+
+-----------------------TELNET
+Data : e
+
+
+
+*****************************************Packet Number 68*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 57 40 00 40 06   74 be c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 5b 6d 6b be c8 80 10 |
+	| 00 2e 1f f8 00 00 01 01   08 0a 00 27 62 b0 03 9d |
+	| 64 55 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4157 (16727)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74be
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007835
+Acknowledgment number: 1835777736
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1ff8
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581168
+		Timestamp echo reply: 60646485
+
+
+
+*****************************************Packet Number 69*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 58 40 00 40 06   74 bc c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 5b 6d 6b be c8 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 62 bb 03 9d |
+	| 64 55 20 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4158 (16728)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74bc
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007835
+Acknowledgment number: 1835777736
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581179
+		Timestamp echo reply: 60646485
+
+-----------------------TELNET
+Data :  
+
+
+
+*****************************************Packet Number 70*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dd 00 40 00 40 06   d9 13 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be c8 da cf 22 5c 80 18 |
+	| 0b 50 f4 b5 00 00 01 01   08 0a 03 9d 64 60 00 27 |
+	| 62 bb 20 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdd00 (56576)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd913
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777736
+Acknowledgment number: 3671007836
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xf4b5
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646496
+		Timestamp echo reply: 2581179
+
+-----------------------TELNET
+Data :  
+
+
+
+*****************************************Packet Number 71*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 59 40 00 40 06   74 bc c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 5c 6d 6b be c9 80 10 |
+	| 00 2e 1f e0 00 00 01 01   08 0a 00 27 62 bb 03 9d |
+	| 64 60 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4159 (16729)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74bc
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007836
+Acknowledgment number: 1835777737
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1fe0
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581179
+		Timestamp echo reply: 60646496
+
+
+
+*****************************************Packet Number 72*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 5a 40 00 40 06   74 ba c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 5c 6d 6b be c9 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 62 c8 03 9d |
+	| 64 60 2d 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x415a (16730)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74ba
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007836
+Acknowledgment number: 1835777737
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581192
+		Timestamp echo reply: 60646496
+
+-----------------------TELNET
+Data : -
+
+
+
+*****************************************Packet Number 73*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dd 01 40 00 40 06   d9 12 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be c9 da cf 22 5d 80 18 |
+	| 0b 50 e7 99 00 00 01 01   08 0a 03 9d 64 6d 00 27 |
+	| 62 c8 2d 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdd01 (56577)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd912
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777737
+Acknowledgment number: 3671007837
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xe799
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646509
+		Timestamp echo reply: 2581192
+
+-----------------------TELNET
+Data : -
+
+
+
+*****************************************Packet Number 74*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 5b 40 00 40 06   74 ba c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 5d 6d 6b be ca 80 10 |
+	| 00 2e 1f c4 00 00 01 01   08 0a 00 27 62 c8 03 9d |
+	| 64 6d 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x415b (16731)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74ba
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007837
+Acknowledgment number: 1835777738
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1fc4
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581192
+		Timestamp echo reply: 60646509
+
+
+
+*****************************************Packet Number 75*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 5c 40 00 40 06   74 b8 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 5d 6d 6b be ca 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 62 d5 03 9d |
+	| 64 6d 61 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x415c (16732)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74b8
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007837
+Acknowledgment number: 1835777738
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581205
+		Timestamp echo reply: 60646509
+
+-----------------------TELNET
+Data : a
+
+
+
+*****************************************Packet Number 76*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dd 02 40 00 40 06   d9 11 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be ca da cf 22 5e 80 18 |
+	| 0b 50 b3 7d 00 00 01 01   08 0a 03 9d 64 7a 00 27 |
+	| 62 d5 61 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdd02 (56578)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd911
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777738
+Acknowledgment number: 3671007838
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xb37d
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646522
+		Timestamp echo reply: 2581205
+
+-----------------------TELNET
+Data : a
+
+
+
+*****************************************Packet Number 77*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 5d 40 00 40 06   74 b8 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 5e 6d 6b be cb 80 10 |
+	| 00 2e 1f a8 00 00 01 01   08 0a 00 27 62 d5 03 9d |
+	| 64 7a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x415d (16733)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74b8
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007838
+Acknowledgment number: 1835777739
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1fa8
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581205
+		Timestamp echo reply: 60646522
+
+
+
+*****************************************Packet Number 78*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 36 41 5e 40 00 40 06   74 b5 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 5e 6d 6b be cb 80 18 |
+	| 00 2e 84 c7 00 00 01 01   08 0a 00 27 63 3d 03 9d |
+	| 64 7a 0d 00 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 54
+Identification: 0x415e (16734)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74b5
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007838
+Acknowledgment number: 1835777739
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c7
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581309
+		Timestamp echo reply: 60646522
+
+-----------------------TELNET
+Data :  
+
+
+
+*****************************************Packet Number 79*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 36 dd 03 40 00 40 06   d9 0f c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be cb da cf 22 60 80 18 |
+	| 0b 50 06 a0 00 00 01 01   08 0a 03 9d 64 e2 00 27 |
+	| 63 3d 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 54
+Identification: 0xdd03 (56579)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd90f
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777739
+Acknowledgment number: 3671007840
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0x06a0
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646626
+		Timestamp echo reply: 2581309
+
+-----------------------TELNET
+Data : 
+
+
+
+
+*****************************************Packet Number 80*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 5f 40 00 40 06   74 b6 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 60 6d 6b be cd 80 10 |
+	| 00 2e 1e d4 00 00 01 01   08 0a 00 27 63 3d 03 9d |
+	| 64 e2 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x415f (16735)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74b6
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007840
+Acknowledgment number: 1835777741
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1ed4
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581309
+		Timestamp echo reply: 60646626
+
+
+
+*****************************************Packet Number 81*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 7f dd 04 40 00 40 06   d8 c5 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   be cd da cf 22 60 80 18 |
+	| 0b 50 02 53 00 00 01 01   08 0a 03 9d 64 e4 00 27 |
+	| 63 3d 4c 69 6e 75 78 20   63 6d 34 31 31 36 20 32 |
+	| 2e 36 2e 33 30 2e 32 2d   75 63 30 20 23 33 20 54 |
+	| 75 65 20 46 65 62 20 32   32 20 30 30 3a 35 37 3a |
+	| 31 38 20 45 53 54 20 32   30 31 31 20 61 72 6d 76 |
+	| 34 74 6c 20 75 6e 6b 6e   6f 77 6e 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 127
+Identification: 0xdd04 (56580)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd8c5
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777741
+Acknowledgment number: 3671007840
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0x0253
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646628
+		Timestamp echo reply: 2581309
+
+-----------------------TELNET
+Data : Linux cm4116 2.6.30.2-uc0 #3 Tue Feb 22 00:57:18 EST 2011 armv4tl unknown
+
+
+
+
+*****************************************Packet Number 82*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 60 40 00 40 06   74 b5 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 60 6d 6b bf 18 80 10 |
+	| 00 2e 1e 85 00 00 01 01   08 0a 00 27 63 3f 03 9d |
+	| 64 e4 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4160 (16736)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74b5
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007840
+Acknowledgment number: 1835777816
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1e85
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581311
+		Timestamp echo reply: 60646628
+
+
+
+*****************************************Packet Number 83*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 36 dd 05 40 00 40 06   d9 0d c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 18 da cf 22 60 80 18 |
+	| 0b 50 ef 38 00 00 01 01   08 0a 03 9d 64 e4 00 27 |
+	| 63 3f 24 20 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 54
+Identification: 0xdd05 (56581)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd90d
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777816
+Acknowledgment number: 3671007840
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xef38
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646628
+		Timestamp echo reply: 2581311
+
+-----------------------TELNET
+Data : $ 
+
+
+
+*****************************************Packet Number 84*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 61 40 00 40 06   74 b4 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 60 6d 6b bf 1a 80 10 |
+	| 00 2e 1e 83 00 00 01 01   08 0a 00 27 63 3f 03 9d |
+	| 64 e4 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4161 (16737)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74b4
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007840
+Acknowledgment number: 1835777818
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1e83
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581311
+		Timestamp echo reply: 60646628
+
+
+
+*****************************************Packet Number 85*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 62 40 00 40 06   74 b2 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 60 6d 6b bf 1a 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 63 5a 03 9d |
+	| 64 e4 03 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4162 (16738)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74b2
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007840
+Acknowledgment number: 1835777818
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581338
+		Timestamp echo reply: 60646628
+
+-----------------------TELNET
+Data : 
+
+
+
+*****************************************Packet Number 86*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dd 06 40 00 40 06   d9 0d c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 1a da cf 22 61 80 38 |
+	| 0b 50 13 ff 00 01 01 01   08 0a 03 9d 64 ff 00 27 |
+	| 63 5a ff 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdd06 (56582)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd90d
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777818
+Acknowledgment number: 3671007841
+Flags: 0x38 (PSH) (ACK) (URG)
+Window size value: 2896
+Checksum: 0x13ff
+Urgent pointer: 1
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646655
+		Timestamp echo reply: 2581338
+
+-----------------------TELNET
+
+
+
+
+
+*****************************************Packet Number 87*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 63 40 00 40 06   74 b2 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 61 6d 6b bf 1b 80 10 |
+	| 00 2e 1e 4b 00 00 01 01   08 0a 00 27 63 5a 03 9d |
+	| 64 ff 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4163 (16739)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74b2
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007841
+Acknowledgment number: 1835777819
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1e4b
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581338
+		Timestamp echo reply: 60646655
+
+
+
+*****************************************Packet Number 88*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dd 07 40 00 40 06   d9 0c c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 1b da cf 22 61 80 18 |
+	| 0b 50 21 1f 00 00 01 01   08 0a 03 9d 64 ff 00 27 |
+	| 63 5a f2 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdd07 (56583)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd90c
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777819
+Acknowledgment number: 3671007841
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0x211f
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646655
+		Timestamp echo reply: 2581338
+
+-----------------------TELNET
+Data : ò
+
+
+
+*****************************************Packet Number 89*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 64 40 00 40 06   74 b1 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 61 6d 6b bf 1c 80 10 |
+	| 00 2e 1e 4a 00 00 01 01   08 0a 00 27 63 5a 03 9d |
+	| 64 ff 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4164 (16740)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74b1
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007841
+Acknowledgment number: 1835777820
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1e4a
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581338
+		Timestamp echo reply: 60646655
+
+
+
+*****************************************Packet Number 90*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 36 dd 08 40 00 40 06   d9 0a c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 1c da cf 22 61 80 18 |
+	| 0b 50 06 14 00 00 01 01   08 0a 03 9d 64 ff 00 27 |
+	| 63 5a 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 54
+Identification: 0xdd08 (56584)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd90a
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777820
+Acknowledgment number: 3671007841
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0x0614
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646655
+		Timestamp echo reply: 2581338
+
+-----------------------TELNET
+Data : 
+
+
+
+
+*****************************************Packet Number 91*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 65 40 00 40 06   74 b0 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 61 6d 6b bf 1e 80 10 |
+	| 00 2e 1e 48 00 00 01 01   08 0a 00 27 63 5a 03 9d |
+	| 64 ff 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4165 (16741)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74b0
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007841
+Acknowledgment number: 1835777822
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1e48
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581338
+		Timestamp echo reply: 60646655
+
+
+
+*****************************************Packet Number 92*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 36 dd 09 40 00 40 06   d9 09 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 1e da cf 22 61 80 18 |
+	| 0b 50 ee fb 00 00 01 01   08 0a 03 9d 64 ff 00 27 |
+	| 63 5a 24 20 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 54
+Identification: 0xdd09 (56585)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd909
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777822
+Acknowledgment number: 3671007841
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xeefb
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60646655
+		Timestamp echo reply: 2581338
+
+-----------------------TELNET
+Data : $ 
+
+
+
+*****************************************Packet Number 93*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 66 40 00 40 06   74 af c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 61 6d 6b bf 20 80 10 |
+	| 00 2e 1e 46 00 00 01 01   08 0a 00 27 63 5a 03 9d |
+	| 64 ff 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4166 (16742)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74af
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007841
+Acknowledgment number: 1835777824
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1e46
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2581338
+		Timestamp echo reply: 60646655
+
+
+
+*****************************************Packet Number 94*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 67 40 00 40 06   74 ad c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 61 6d 6b bf 20 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 66 41 03 9d |
+	| 64 ff 65 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4167 (16743)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74ad
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007841
+Acknowledgment number: 1835777824
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2582081
+		Timestamp echo reply: 60646655
+
+-----------------------TELNET
+Data : e
+
+
+
+*****************************************Packet Number 95*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dd 0a 40 00 40 06   d9 09 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 20 da cf 22 62 80 18 |
+	| 0b 50 a8 4b 00 00 01 01   08 0a 03 9d 67 e6 00 27 |
+	| 66 41 65 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdd0a (56586)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd909
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777824
+Acknowledgment number: 3671007842
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xa84b
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60647398
+		Timestamp echo reply: 2582081
+
+-----------------------TELNET
+Data : e
+
+
+
+*****************************************Packet Number 96*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 68 40 00 40 06   74 ad c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 62 6d 6b bf 21 80 10 |
+	| 00 2e 18 76 00 00 01 01   08 0a 00 27 66 41 03 9d |
+	| 67 e6 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4168 (16744)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74ad
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007842
+Acknowledgment number: 1835777825
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1876
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2582081
+		Timestamp echo reply: 60647398
+
+
+
+*****************************************Packet Number 97*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 69 40 00 40 06   74 ab c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 62 6d 6b bf 21 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 66 55 03 9d |
+	| 67 e6 78 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x4169 (16745)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74ab
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007842
+Acknowledgment number: 1835777825
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2582101
+		Timestamp echo reply: 60647398
+
+-----------------------TELNET
+Data : x
+
+
+
+*****************************************Packet Number 98*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dd 0b 40 00 40 06   d9 08 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 21 da cf 22 63 80 18 |
+	| 0b 50 95 21 00 00 01 01   08 0a 03 9d 67 fa 00 27 |
+	| 66 55 78 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdd0b (56587)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd908
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777825
+Acknowledgment number: 3671007843
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0x9521
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60647418
+		Timestamp echo reply: 2582101
+
+-----------------------TELNET
+Data : x
+
+
+
+*****************************************Packet Number 99*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 6a 40 00 40 06   74 ab c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 63 6d 6b bf 22 80 10 |
+	| 00 2e 18 4c 00 00 01 01   08 0a 00 27 66 55 03 9d |
+	| 67 fa 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x416a (16746)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74ab
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007843
+Acknowledgment number: 1835777826
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x184c
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2582101
+		Timestamp echo reply: 60647418
+
+
+
+*****************************************Packet Number 100*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 6b 40 00 40 06   74 a9 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 63 6d 6b bf 22 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 66 60 03 9d |
+	| 67 fa 69 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x416b (16747)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74a9
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007843
+Acknowledgment number: 1835777826
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2582112
+		Timestamp echo reply: 60647418
+
+-----------------------TELNET
+Data : i
+
+
+
+*****************************************Packet Number 101*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dd 0c 40 00 40 06   d9 07 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 22 da cf 22 64 80 18 |
+	| 0b 50 a4 09 00 00 01 01   08 0a 03 9d 68 05 00 27 |
+	| 66 60 69 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdd0c (56588)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd907
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777826
+Acknowledgment number: 3671007844
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xa409
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60647429
+		Timestamp echo reply: 2582112
+
+-----------------------TELNET
+Data : i
+
+
+
+*****************************************Packet Number 102*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 6c 40 00 40 06   74 a9 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 64 6d 6b bf 23 80 10 |
+	| 00 2e 18 34 00 00 01 01   08 0a 00 27 66 60 03 9d |
+	| 68 05 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x416c (16748)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74a9
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007844
+Acknowledgment number: 1835777827
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1834
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2582112
+		Timestamp echo reply: 60647429
+
+
+
+*****************************************Packet Number 103*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 35 41 6d 40 00 40 06   74 a7 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 64 6d 6b bf 23 80 18 |
+	| 00 2e 84 c6 00 00 01 01   08 0a 00 27 66 6d 03 9d |
+	| 68 05 74 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0x416d (16749)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74a7
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007844
+Acknowledgment number: 1835777827
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2582125
+		Timestamp echo reply: 60647429
+
+-----------------------TELNET
+Data : t
+
+
+
+*****************************************Packet Number 104*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 35 dd 0d 40 00 40 06   d9 06 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 23 da cf 22 65 80 18 |
+	| 0b 50 98 ed 00 00 01 01   08 0a 03 9d 68 12 00 27 |
+	| 66 6d 74 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 53
+Identification: 0xdd0d (56589)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd906
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777827
+Acknowledgment number: 3671007845
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0x98ed
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60647442
+		Timestamp echo reply: 2582125
+
+-----------------------TELNET
+Data : t
+
+
+
+*****************************************Packet Number 105*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 6e 40 00 40 06   74 a7 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 65 6d 6b bf 24 80 10 |
+	| 00 2e 18 18 00 00 01 01   08 0a 00 27 66 6d 03 9d |
+	| 68 12 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x416e (16750)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74a7
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007845
+Acknowledgment number: 1835777828
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1818
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2582125
+		Timestamp echo reply: 60647442
+
+
+
+*****************************************Packet Number 106*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 36 41 6f 40 00 40 06   74 a4 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 65 6d 6b bf 24 80 18 |
+	| 00 2e 84 c7 00 00 01 01   08 0a 00 27 66 76 03 9d |
+	| 68 12 0d 00 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 54
+Identification: 0x416f (16751)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74a4
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007845
+Acknowledgment number: 1835777828
+Flags: 0x18 (PSH) (ACK)
+Window size value: 46
+Checksum: 0x84c7
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2582134
+		Timestamp echo reply: 60647442
+
+-----------------------TELNET
+Data :  
+
+
+
+*****************************************Packet Number 107*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 36 dd 0e 40 00 40 06   d9 04 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 24 da cf 22 67 80 18 |
+	| 0b 50 ff cd 00 00 01 01   08 0a 03 9d 68 1b 00 27 |
+	| 66 76 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 54
+Identification: 0xdd0e (56590)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd904
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777828
+Acknowledgment number: 3671007847
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xffcd
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60647451
+		Timestamp echo reply: 2582134
+
+-----------------------TELNET
+Data : 
+
+
+
+
+*****************************************Packet Number 108*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 70 40 00 40 06   74 a5 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 67 6d 6b bf 26 80 10 |
+	| 00 2e 18 02 00 00 01 01   08 0a 00 27 66 76 03 9d |
+	| 68 1b 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4170 (16752)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74a5
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007847
+Acknowledgment number: 1835777830
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x1802
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2582134
+		Timestamp echo reply: 60647451
+
+
+
+*****************************************Packet Number 109*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 3c dd 0f 40 00 40 06   d8 fd c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 26 da cf 22 67 80 18 |
+	| 0b 50 b6 71 00 00 01 01   08 0a 03 9d 68 1c 00 27 |
+	| 66 76 6c 6f 67 6f 75 74   0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 60
+Identification: 0xdd0f (56591)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd8fd
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777830
+Acknowledgment number: 3671007847
+Flags: 0x18 (PSH) (ACK)
+Window size value: 2896
+Checksum: 0xb671
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60647452
+		Timestamp echo reply: 2582134
+
+-----------------------TELNET
+Data : logout
+
+
+
+
+*****************************************Packet Number 110*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 71 40 00 40 06   74 a4 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 67 6d 6b bf 2e 80 10 |
+	| 00 2e 17 f9 00 00 01 01   08 0a 00 27 66 76 03 9d |
+	| 68 1c 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4171 (16753)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74a4
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007847
+Acknowledgment number: 1835777838
+Flags: 0x10 (ACK)
+Window size value: 46
+Checksum: 0x17f9
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2582134
+		Timestamp echo reply: 60647452
+
+
+
+*****************************************Packet Number 111*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 34 dd 10 40 00 40 06   d9 04 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 2e da cf 22 67 80 11 |
+	| 0b 50 0c d6 00 00 01 01   08 0a 03 9d 68 1c 00 27 |
+	| 66 76 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0xdd10 (56592)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd904
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777838
+Acknowledgment number: 3671007847
+Flags: 0x11 (FIN) (ACK)
+Window size value: 2896
+Checksum: 0x0cd6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60647452
+		Timestamp echo reply: 2582134
+
+
+
+*****************************************Packet Number 112*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 c6 00 55 a5 00 1d   60 b3 01 84 08 00 45 10 |
+	| 00 34 41 72 40 00 40 06   74 a3 c0 a8 01 8c c0 a8 |
+	| 01 c2 dd b8 00 17 da cf   22 67 6d 6b bf 2f 80 11 |
+	| 00 2e 17 f7 00 00 01 01   08 0a 00 27 66 76 03 9d |
+	| 68 1c 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:60:b3:01:84, Dst: 00:13:c6:00:55:a5:a5  
+Destination: (00:13:c6:00:55:a5)
+Source: (00:1d:60:b3:01:84)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.140, Dst: 192.168.1.194 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0x4172 (16754)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x74a3
+Source: 192.168.1.140
+Destination: 192.168.1.194
+
+---------------Transmission Control Protocol
+Source port: 56760
+Destination port: 23
+Sequence number: 3671007847
+Acknowledgment number: 1835777839
+Flags: 0x11 (FIN) (ACK)
+Window size value: 46
+Checksum: 0x17f7
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2582134
+		Timestamp echo reply: 60647452
+
+
+
+*****************************************Packet Number 113*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1d 60 b3 01 84 00 13   c6 00 55 a5 08 00 45 10 |
+	| 00 34 dd 11 40 00 40 06   d9 03 c0 a8 01 c2 c0 a8 |
+	| 01 8c 00 17 dd b8 6d 6b   bf 2f da cf 22 68 80 10 |
+	| 0b 50 0c d5 00 00 01 01   08 0a 03 9d 68 1c 00 27 |
+	| 66 76 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:c6:00:55:a5, Dst: 00:1d:60:b3:01:84:84  
+Destination: (00:1d:60:b3:01:84)
+Source: (00:13:c6:00:55:a5)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.1.194, Dst: 192.168.1.140 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x10
+Total Lenght: 52
+Identification: 0xdd11 (56593)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0xd903
+Source: 192.168.1.194
+Destination: 192.168.1.140
+
+---------------Transmission Control Protocol
+Source port: 23
+Destination port: 56760
+Sequence number: 1835777839
+Acknowledgment number: 3671007848
+Flags: 0x10 (ACK)
+Window size value: 2896
+Checksum: 0x0cd5
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 60647452
+		Timestamp echo reply: 2582134
+
+
+
+
+
+
+Finished !! Thank you , Au revoir !

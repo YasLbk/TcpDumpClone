@@ -1,0 +1,318 @@
+Capturing packets from the file dns.pcap 
+
+*****************************************Packet Number 1*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 1f   5b ff 51 cb 08 00 45 00 |
+	| 00 3c b3 bc 00 00 40 11   b6 8a 0a b4 9c 8d 0a 02 |
+	| 5f 27 f4 63 00 35 00 28   93 ab e0 39 01 00 00 01 |
+	| 00 00 00 00 00 00 03 77   77 77 06 67 69 74 68 75 |
+	| 62 03 63 6f 6d 00 00 01   00 01 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1f:5b:ff:51:cb, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:1f:5b:ff:51:cb)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.141, Dst: 10.2.95.39 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 60
+Identification: 0xb3bc (46012)
+Flags: 0x0000	
+	Reserved bit: Not set 
+	Don't fragment: Not set 
+	More fragment: Not set
+Time to live: 64
+Protocol: UDP (17)
+Header Checksum: 0xb68a
+Source: 10.180.156.141
+Destination: 10.2.95.39
+
+---------------User Diagram Protocol, 
+Source Port: 62563
+Destination Port: 53
+Lenght: 40
+Checksum: 0x93ab
+
+------------------------Domain Name System
+Transaction id : 0xe039
+Flags : 0x0100
+Questions : 1
+Answer RRs : 0
+Authority RRs : 0
+Additional RRs : 0
+			Queries
+Name: .www.github.com
+ [Name lenght]: 15   
+Type :A (Address record) (1) 
+Class : IN (0x0001) 
+
+
+*****************************************Packet Number 2*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1f 5b ff 51 cb 00 d0   2b d1 76 00 08 00 45 00 |
+	| 00 f0 5d 33 00 00 3c 11   10 60 0a 02 5f 27 0a b4 |
+	| 9c 8d 00 35 f4 63 00 dc   9d 7f e0 39 81 80 00 01 |
+	| 00 02 00 04 00 04 03 77   77 77 06 67 69 74 68 75 |
+	| 62 03 63 6f 6d 00 00 01   00 01 c0 0c 00 05 00 01 |
+	| 00 00 07 bc 00 02 c0 10   c0 10 00 01 00 01 00 00 |
+	| 00 04 00 04 c0 1e fc 80   c0 10 00 02 00 01 00 00 |
+	| 01 48 00 14 03 6e 73 33   03 70 31 36 06 64 79 6e |
+	| 65 63 74 03 6e 65 74 00   c0 10 00 02 00 01 00 00 |
+	| 01 48 00 06 03 6e 73 32   c0 4e c0 10 00 02 00 01 |
+	| 00 00 01 48 00 06 03 6e   73 34 c0 4e c0 10 00 02 |
+	| 00 01 00 00 01 48 00 06   03 6e 73 31 c0 4e c0 6a |
+	| 00 01 00 01 00 00 0e 10   00 04 0a 02 5f 0c c0 4a |
+	| 00 01 00 01 00 00 0e 10   00 04 0a 02 5f 0c c0 8e |
+	| 00 01 00 01 00 00 0e 10   00 04 0a 02 5f 0c c0 7c |
+	| 00 01 00 01 00 00 0e 10   00 04 0a 02 5f 0c 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:d0:2b:d1:76:00, Dst: 00:1f:5b:ff:51:cb:cb  
+Destination: (00:1f:5b:ff:51:cb)
+Source: (00:d0:2b:d1:76:00)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.2.95.39, Dst: 10.180.156.141 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 240
+Identification: 0x5d33 (23859)
+Flags: 0x0000	
+	Reserved bit: Not set 
+	Don't fragment: Not set 
+	More fragment: Not set
+Time to live: 60
+Protocol: UDP (17)
+Header Checksum: 0x1060
+Source: 10.2.95.39
+Destination: 10.180.156.141
+
+---------------User Diagram Protocol, 
+Source Port: 53
+Destination Port: 62563
+Lenght: 220
+Checksum: 0x9d7f
+
+------------------------Domain Name System
+Transaction id : 0xe039
+Flags : 0x8180
+Questions : 1
+Answer RRs : 2
+Authority RRs : 4
+Additional RRs : 4
+			Queries
+Name: .www.github.com
+ [Name lenght]: 15   
+Type :A (Address record) (1) 
+Class : IN (0x0001) 
+			Answers
+Name: .www.github.com
+Type :CNAME (Canonical name record) (5) 
+Class :IN (0x0001) 
+Time to live 1980
+Data length 2
+..
+Type :A (Address record) (1) 
+Class :IN (0x0001) 
+Time to live 4
+Data length 4
+Address192.30.252.128
+....
+
+
+
+*****************************************Packet Number 3*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 1f   5b ff 51 cb 08 00 45 00 |
+	| 00 3c 60 9b 00 00 40 11   5f dc 0a b4 9c 8d 0a b2 |
+	| 08 47 f3 d0 00 35 00 28   ea 6e e0 39 01 00 00 01 |
+	| 00 00 00 00 00 00 03 77   77 77 06 67 69 74 68 75 |
+	| 62 03 63 6f 6d 00 00 01   00 01 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1f:5b:ff:51:cb, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:1f:5b:ff:51:cb)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.141, Dst: 10.178.8.71 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 60
+Identification: 0x609b (24731)
+Flags: 0x0000	
+	Reserved bit: Not set 
+	Don't fragment: Not set 
+	More fragment: Not set
+Time to live: 64
+Protocol: UDP (17)
+Header Checksum: 0x5fdc
+Source: 10.180.156.141
+Destination: 10.178.8.71
+
+---------------User Diagram Protocol, 
+Source Port: 62416
+Destination Port: 53
+Lenght: 40
+Checksum: 0xea6e
+
+------------------------Domain Name System
+Transaction id : 0xe039
+Flags : 0x0100
+Questions : 1
+Answer RRs : 0
+Authority RRs : 0
+Additional RRs : 0
+			Queries
+Name: .www.github.com
+ [Name lenght]: 15   
+Type :A (Address record) (1) 
+Class : IN (0x0001) 
+
+
+*****************************************Packet Number 4*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 1f 5b ff 51 cb 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 f0 d5 b9 00 00 3c 11   ee 09 0a b2 08 47 0a b4 |
+	| 9c 8d 00 35 f3 d0 00 dc   ed d6 e0 39 81 80 00 01 |
+	| 00 02 00 04 00 04 03 77   77 77 06 67 69 74 68 75 |
+	| 62 03 63 6f 6d 00 00 01   00 01 c0 0c 00 05 00 01 |
+	| 00 00 0e 10 00 02 c0 10   c0 10 00 01 00 01 00 00 |
+	| 00 1e 00 04 c0 1e fc 82   c0 10 00 02 00 01 00 00 |
+	| 01 47 00 14 03 6e 73 32   03 70 31 36 06 64 79 6e |
+	| 65 63 74 03 6e 65 74 00   c0 10 00 02 00 01 00 00 |
+	| 01 47 00 06 03 6e 73 33   c0 4e c0 10 00 02 00 01 |
+	| 00 00 01 47 00 06 03 6e   73 34 c0 4e c0 10 00 02 |
+	| 00 01 00 00 01 47 00 06   03 6e 73 31 c0 4e c0 8e |
+	| 00 01 00 01 00 00 0e 10   00 04 0a 02 5f 0c c0 6a |
+	| 00 01 00 01 00 00 0e 10   00 04 0a 02 5f 0c c0 7c |
+	| 00 01 00 01 00 00 0e 10   00 04 0a 02 5f 0c c0 4a |
+	| 00 01 00 01 00 00 0e 10   00 04 0a 02 5f 0c 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:1f:5b:ff:51:cb:cb  
+Destination: (00:1f:5b:ff:51:cb)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.178.8.71, Dst: 10.180.156.141 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 240
+Identification: 0xd5b9 (54713)
+Flags: 0x0000	
+	Reserved bit: Not set 
+	Don't fragment: Not set 
+	More fragment: Not set
+Time to live: 60
+Protocol: UDP (17)
+Header Checksum: 0xee09
+Source: 10.178.8.71
+Destination: 10.180.156.141
+
+---------------User Diagram Protocol, 
+Source Port: 53
+Destination Port: 62416
+Lenght: 220
+Checksum: 0xedd6
+
+------------------------Domain Name System
+Transaction id : 0xe039
+Flags : 0x8180
+Questions : 1
+Answer RRs : 2
+Authority RRs : 4
+Additional RRs : 4
+			Queries
+Name: .www.github.com
+ [Name lenght]: 15   
+Type :A (Address record) (1) 
+Class : IN (0x0001) 
+			Answers
+Name: .www.github.com
+Type :CNAME (Canonical name record) (5) 
+Class :IN (0x0001) 
+Time to live 3600
+Data length 2
+..
+Type :A (Address record) (1) 
+Class :IN (0x0001) 
+Time to live 30
+Data length 4
+Address192.30.252.130
+....
+
+
+
+*****************************************Packet Number 5*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 20 4e 71 c5 11 c0 ac 4b   c8 4c 9f c1 08 00 45 00 |
+	| 00 52 00 3f 00 00 3b 11   82 3d 0a 0a 0a 0a 0a 0a |
+	| 0a 0b 14 e9 00 35 00 3e   5a 66 ca a6 00 10 00 01 |
+	| 00 00 00 00 00 01 02 31   30 03 31 30 30 02 31 30 |
+	| 02 31 30 07 69 6e 2d 61   64 64 72 04 61 72 70 61 |
+	| 00 00 ff 00 01 00 00 29   02 00 00 00 80 00 00 00 |
+	| 
+	-----------------------------------------------------
+
+Ethernet II, Src: ac:4b:c8:4c:9f:c1, Dst: 20:4e:71:c5:11:c0:c0  
+Destination: (20:4e:71:c5:11:c0)
+Source: (ac:4b:c8:4c:9f:c1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.10.10.10, Dst: 10.10.10.11 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 82
+Identification: 0x003f (63)
+Flags: 0x0000	
+	Reserved bit: Not set 
+	Don't fragment: Not set 
+	More fragment: Not set
+Time to live: 59
+Protocol: UDP (17)
+Header Checksum: 0x823d
+Source: 10.10.10.10
+Destination: 10.10.10.11
+
+---------------User Diagram Protocol, 
+Source Port: 5353
+Destination Port: 53
+Lenght: 62
+Checksum: 0x5a66
+
+------------------------Domain Name System
+Transaction id : 0xcaa6
+Flags : 0x0010
+Questions : 1
+Answer RRs : 0
+Authority RRs : 0
+Additional RRs : 1
+			Queries
+Name: .10.100.10.10.in-addr.arpa
+ [Name lenght]: 26   
+Type :Unknown 
+Class : IN (0x0001) 
+
+
+
+
+
+Finished !! Thank you , Au revoir !

@@ -1,0 +1,368 @@
+Capturing packets from the file smtp_p4.pcap 
+
+--------------------------------------------------------------------------------------------
+#Frame Number 1 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 60
+
+---------------Transmission Control Protocol
+Flags: 0x02 (SYN)  Src port: 46671   ,Dst port: 25  ,Seq: -1103818039  ,Ack: 0  Window size value: 14600  Checksum: 0xe751  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 2 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 60
+
+---------------Transmission Control Protocol
+Flags: 0x12 (SYN) (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304849320  ,Ack: -1103818038  Window size value: 14480  Checksum: 0x9e62  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 3 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103818038  ,Ack: -1304849319  Window size value: 115  Checksum: 0x054a  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 4 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 123
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304849319  ,Ack: -1103818038  Window size value: 227  Checksum: 0x5f71  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 5 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103818038  ,Ack: -1304849248  Window size value: 115  Checksum: 0x04ff  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 6 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 80
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103818038  ,Ack: -1304849248  Window size value: 115  Checksum: 0x29bd  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 7 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304849248  ,Ack: -1103818010  Window size value: 227  Checksum: 0x0473  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 8 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 221
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304849248  ,Ack: -1103818010  Window size value: 227  Checksum: 0x703b  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 9 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 89
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103818010  ,Ack: -1304849079  Window size value: 123  Checksum: 0x29c6  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 10 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 83
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304849079  ,Ack: -1103817973  Window size value: 227  Checksum: 0xfdf3  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 11 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 91
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103817973  ,Ack: -1304849048  Window size value: 123  Checksum: 0x29c8  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 12 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 94
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304849048  ,Ack: -1103817934  Window size value: 227  Checksum: 0xe757  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 13 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103817934  ,Ack: -1304849006  Window size value: 123  Checksum: 0x036b  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 14 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 98
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304849006  ,Ack: -1103817934  Window size value: 227  Checksum: 0xd6ee  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 15 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103817934  ,Ack: -1304848960  Window size value: 123  Checksum: 0x0332  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 16 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1438
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103817934  ,Ack: -1304848960  Window size value: 123  Checksum: 0x2f0b  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 17 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304848960  ,Ack: -1103816548  Window size value: 270  Checksum: 0xfd27  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 18 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 55
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103816548  ,Ack: -1304848960  Window size value: 123  Checksum: 0x29a4  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 19 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304848960  ,Ack: -1103816545  Window size value: 270  Checksum: 0xfcfc  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 20 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 83
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304848960  ,Ack: -1103816545  Window size value: 270  Checksum: 0xddd1  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 21 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103816545  ,Ack: -1304848929  Window size value: 123  Checksum: 0xfc6c  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 22 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 58
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103816545  ,Ack: -1304848929  Window size value: 123  Checksum: 0x29a7  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 23 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304848929  ,Ack: -1103816539  Window size value: 270  Checksum: 0xfb79  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 24 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 132
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304848929  ,Ack: -1103816539  Window size value: 270  Checksum: 0x3ca1  
+
+-----------------------Simple Mail Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 25 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103816539  ,Ack: -1304848849  Window size value: 123  Checksum: 0xfbbb  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 26 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x11 (FIN) (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304848849  ,Ack: -1103816539  Window size value: 270  Checksum: 0xfb28  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 27 
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x11 (FIN) (ACK)  Src port: 46671   ,Dst port: 25  ,Seq: -1103816539  ,Ack: -1304848848  Window size value: 123  Checksum: 0xfbb9  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 28 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 25   ,Dst port: 46671  ,Seq: -1304848848  ,Ack: -1103816538  Window size value: 270  Checksum: 0xfb26  
+
+
+
+
+
+Finished !! Thank you , Au revoir !

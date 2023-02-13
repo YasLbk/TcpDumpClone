@@ -1,0 +1,1014 @@
+Capturing packets from the file sctp-www.pcap 
+
+--------------------------------------------------------------------------------------------
+#Frame Number 1 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 92
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0x00000000  Checksum: 0x30baef54  INIT (1)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 2 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 264
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0xa3ba08e6  INIT_ACK (2)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 3 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 228
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x7514a49a  COOKIE_ECHO (10)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 4 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 36
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x81cede0b  COOKIE_ACK (11)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 5 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 452
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x70e55b4c  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 6 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0xdafdf97b  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 7 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 352
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0xbe86bcba  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 8 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x036af198  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 9 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x9b6df209  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 10 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x10746e29  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 11 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x1a3856a8  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 12 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0xaab3c4bc  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 13 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x5ba54eaf  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 14 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x1e28d31b  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 15 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x646188cc  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 16 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 376
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0xc6d57f0b  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 17 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x28e3ec20  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 18 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x16d3e0e0  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 19 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x760a01f6  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 20 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0xcc354557  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 21 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 436
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0xf03c5b77  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 22 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 352
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x8e81829a  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 23 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 92
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x00000000  Checksum: 0x6179f2ea  INIT (1)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 24 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 264
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0x211c6eb6  INIT_ACK (2)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 25 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 228
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0x1a99ea1d  COOKIE_ECHO (10)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 26 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 36
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0xfec77baf  COOKIE_ACK (11)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 27 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 432
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0xa6d61e34  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 28 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0xe0e3f50a  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 29 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 356
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0x676688fc  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 30 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0x1f9db742  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 31 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 222.96.156.151  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 92
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32838  Dst port: 80  Verification tag: 0x00000000  Checksum: 0x178ebd89  INIT (1)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 32 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x6061537b  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 33 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0xaaa538ad  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 34 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x2cef510b  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 35 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x03af702f  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 36 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x239cb39c  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 37 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x71725df0  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 38 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0xb62568e3  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 39 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0x8cdfe387  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 40 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0x97595028  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 41 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0xcff256e2  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 42 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0xbc2ef122  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 43 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0x9349d59b  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 44 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x67f32446  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 45 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x034112b1  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 46 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x70d1d2bb  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 47 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0xce5707ef  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 48 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x96629ad1  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 49 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0xe65a954e  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 50 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1392
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x908550c6  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 51 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0xcdcac886  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 52 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0x515e0804  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 53 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0x07c063d8  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 54 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0x4d3934a7  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 55 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0x860455cd  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 56 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0x8c4fa724  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 57 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0xd973ece3  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 58 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0x8e177b41  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 59 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0x0dce0fe8  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 60 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0x0d8377fc  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 61 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0xf3fac446  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 62 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x7d303011  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 63 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x43003cd1  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 64 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0x024c8097  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 65 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 680
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0x98a95b73  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 66 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0xa020c2fe  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 67 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1480
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0x208ff530  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 68 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1304
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0xde48dfeb  DATA (0)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 69 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0x480a613b  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 70 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0xfb2c997e  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 71 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0xc51c95be  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 72 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0x4bd661e9  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 73 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0x22a51e44  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 74 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0x75e66d29  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 75 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0x5826e367  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 76 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 48
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0x922bc78f  SACK (3)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 77 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 222.96.156.151  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 92
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32838  Dst port: 80  Verification tag: 0x00000000  Checksum: 0x178ebd89  INIT (1)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 78 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 222.96.156.151  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 92
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32838  Dst port: 80  Verification tag: 0x00000000  Checksum: 0x178ebd89  INIT (1)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 79 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 40
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0x7558d7db  SHUTDOWN (7)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 80 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 40
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x8fbaa83b  SHUTDOWN (7)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 81 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 36
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32837  Verification tag: 0xe9b73bc3  Checksum: 0xc74e59cd  SHUTDOWN_ACK (8)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 82 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 36
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32837  Dst port: 80  Verification tag: 0x13896007  Checksum: 0xae517e10  SHUTDOWN_COMPLETE (14)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 83 
+Ethernet II, Src: 00:04:96:08:e0:40, Dst: 00:0e:2e:24:37:5f:5f  
+--------Internet Protocol Version 4, Src: 203.255.252.194, Dst: 155.230.24.155  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 36
+
+---------------Simple Mail Transfer Protocol
+  Src port: 80  Dst port: 32836  Verification tag: 0x3bb99c46  Checksum: 0xb847fc69  SHUTDOWN_ACK (8)
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 84 
+Ethernet II, Src: 00:0e:2e:24:37:5f, Dst: 00:04:96:08:e0:40:40  
+--------Internet Protocol Version 4, Src: 155.230.24.155, Dst: 203.255.252.194  
+	IHL: 20 bytes
+ 	Type of service: 0x02
+ 	Total Lenght: 36
+
+---------------Simple Mail Transfer Protocol
+  Src port: 32836  Dst port: 80  Verification tag: 0xd26ac1e5  Checksum: 0x254226a7  SHUTDOWN_COMPLETE (14)
+
+
+
+
+
+Finished !! Thank you , Au revoir !

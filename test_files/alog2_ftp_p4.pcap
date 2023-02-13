@@ -1,0 +1,136 @@
+Capturing packets from the file ftp_p4.pcap 
+
+--------------------------------------------------------------------------------------------
+#Frame Number 1 
+Ethernet II, Src: 00:08:e3:ff:fc:28, Dst: 58:f3:9c:f7:2f:9f:9f  
+--------Internet Protocol Version 4, Src: 10.10.30.26, Dst: 129.21.171.72  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 60
+
+---------------Transmission Control Protocol
+Flags: 0x02 (SYN)  Src port: 43958   ,Dst port: 21  ,Seq: -614489973  ,Ack: 0  Window size value: 29200  Checksum: 0xf340  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 2 
+Ethernet II, Src: 58:f3:9c:f7:2f:9f, Dst: 00:08:e3:ff:fc:28:28  
+--------Internet Protocol Version 4, Src: 129.21.171.72, Dst: 10.10.30.26  
+	IHL: 20 bytes
+ 	Type of service: 0x28
+ 	Total Lenght: 60
+
+---------------Transmission Control Protocol
+Flags: 0x12 (SYN) (ACK)  Src port: 21   ,Dst port: 43958  ,Seq: 2095295372  ,Ack: -614489972  Window size value: 26844  Checksum: 0x8c80  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 3 
+Ethernet II, Src: 00:08:e3:ff:fc:28, Dst: 58:f3:9c:f7:2f:9f:9f  
+--------Internet Protocol Version 4, Src: 10.10.30.26, Dst: 129.21.171.72  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 43958   ,Dst port: 21  ,Seq: -614489972  ,Ack: 2095295373  Window size value: 229  Checksum: 0x22dc  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 4 
+Ethernet II, Src: 58:f3:9c:f7:2f:9f, Dst: 00:08:e3:ff:fc:28:28  
+--------Internet Protocol Version 4, Src: 129.21.171.72, Dst: 10.10.30.26  
+	IHL: 20 bytes
+ 	Type of service: 0x28
+ 	Total Lenght: 85
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 21   ,Dst port: 43958  ,Seq: 2095295373  ,Ack: -614489972  Window size value: 210  Checksum: 0xe20a  
+
+-----------------------File Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 5 
+Ethernet II, Src: 00:08:e3:ff:fc:28, Dst: 58:f3:9c:f7:2f:9f:9f  
+--------Internet Protocol Version 4, Src: 10.10.30.26, Dst: 129.21.171.72  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 43958   ,Dst port: 21  ,Seq: -614489972  ,Ack: 2095295406  Window size value: 229  Checksum: 0x2297  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 6 
+Ethernet II, Src: 00:08:e3:ff:fc:28, Dst: 58:f3:9c:f7:2f:9f:9f  
+--------Internet Protocol Version 4, Src: 10.10.30.26, Dst: 129.21.171.72  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 68
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 43958   ,Dst port: 21  ,Seq: -614489972  ,Ack: 2095295406  Window size value: 229  Checksum: 0x9aa1  
+
+-----------------------File Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 7 
+Ethernet II, Src: 58:f3:9c:f7:2f:9f, Dst: 00:08:e3:ff:fc:28:28  
+--------Internet Protocol Version 4, Src: 129.21.171.72, Dst: 10.10.30.26  
+	IHL: 20 bytes
+ 	Type of service: 0x28
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 21   ,Dst port: 43958  ,Seq: 2095295406  ,Ack: -614489956  Window size value: 210  Checksum: 0x2288  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 8 
+Ethernet II, Src: 58:f3:9c:f7:2f:9f, Dst: 00:08:e3:ff:fc:28:28  
+--------Internet Protocol Version 4, Src: 129.21.171.72, Dst: 10.10.30.26  
+	IHL: 20 bytes
+ 	Type of service: 0x28
+ 	Total Lenght: 86
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 21   ,Dst port: 43958  ,Seq: 2095295406  ,Ack: -614489956  Window size value: 210  Checksum: 0xdb3c  
+
+-----------------------File Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 9 
+Ethernet II, Src: 00:08:e3:ff:fc:28, Dst: 58:f3:9c:f7:2f:9f:9f  
+--------Internet Protocol Version 4, Src: 10.10.30.26, Dst: 129.21.171.72  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 74
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 43958   ,Dst port: 21  ,Seq: -614489956  ,Ack: 2095295440  Window size value: 229  Checksum: 0xac41  
+
+-----------------------File Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 10 
+Ethernet II, Src: 58:f3:9c:f7:2f:9f, Dst: 00:08:e3:ff:fc:28:28  
+--------Internet Protocol Version 4, Src: 129.21.171.72, Dst: 10.10.30.26  
+	IHL: 20 bytes
+ 	Type of service: 0x28
+ 	Total Lenght: 75
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 21   ,Dst port: 43958  ,Seq: 2095295440  ,Ack: -614489934  Window size value: 210  Checksum: 0x4095  
+
+-----------------------File Transfer Protocol
+
+
+
+
+
+Finished !! Thank you , Au revoir !

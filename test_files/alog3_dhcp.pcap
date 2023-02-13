@@ -1,0 +1,350 @@
+Capturing packets from the file dhcp.pcap 
+
+*****************************************Packet Number 1*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| ff ff ff ff ff ff 00 0b   82 01 fc 42 08 00 45 00 |
+	| 01 2c a8 36 00 00 fa 11   17 8b 00 00 00 00 ff ff |
+	| ff ff 00 44 00 43 01 18   59 1f 01 01 06 00 00 00 |
+	| 3d 1d 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 0b   82 01 fc 42 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 63 82   53 63 35 01 01 3d 07 01 |
+	| 00 0b 82 01 fc 42 32 04   00 00 00 00 37 04 01 03 |
+	| 06 2a ff 00 00 00 00 00   00 00 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0b:82:01:fc:42, Dst: ff:ff:ff:ff:ff:ff:ff  
+Destination: (ff:ff:ff:ff:ff:ff)
+Source: (00:0b:82:01:fc:42)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 0.0.0.0, Dst: 255.255.255.255 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 300
+Identification: 0xa836 (43062)
+Flags: 0x0000	
+	Reserved bit: Not set 
+	Don't fragment: Not set 
+	More fragment: Not set
+Time to live: 250
+Protocol: UDP (17)
+Header Checksum: 0x178b
+Source: 0.0.0.0
+Destination: 255.255.255.255
+
+---------------User Diagram Protocol, 
+Source Port: 68
+Destination Port: 67
+Lenght: 280
+Checksum: 0x591f
+
+------------------------BOOTP
+Message type : Boot Request (1) 
+Hardware type : Ethernet (0x01) 
+Hardware address length : 6 bytes
+Hops : 0
+Transaction ID : 0x00003d1d
+Seconds elapsed : 0
+Bootp flags : 0x0000
+Client IP address : 0.0.0.0
+Your (client) IP address : 0.0.0.0
+Next server IP address : 0.0.0.0
+Relay agent IP address : 0.0.0.0
+Client MAC address : 00:0b:82:01:fc:42
+Client hardware address padding : 00000000000000000000
+Server host name : not given
+Boot file name : not given
+Magic cookie : DHCP
+Option: (53) DHCP message type (DISCOVER)
+	lenght 1
+Option: (61) Hardware type 0x01
+	Client identifier  00:0b:82:01:fc:42
+	lenght 7
+Option: (50) Requested IP address 0.0.0.0
+	lenght 4
+Option: (55) Parameter Request List 
+	Parameter Request List Item: (1) Subnet Mask
+	Parameter Request List Item: (3) Router
+	Parameter Request List Item: (6) Domain Name Server
+	Parameter Request List Item: (42) Network Time Protocol Servers
+	lenght 4
+Option :(255) End
+
+*****************************************Packet Number 2*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 0b 82 01 fc 42 00 08   74 ad f1 9b 08 00 45 00 |
+	| 01 48 04 45 00 00 80 11   00 00 c0 a8 00 01 c0 a8 |
+	| 00 0a 00 43 00 44 01 34   22 33 02 01 06 00 00 00 |
+	| 3d 1d 00 00 00 00 00 00   00 00 c0 a8 00 0a c0 a8 |
+	| 00 01 00 00 00 00 00 0b   82 01 fc 42 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 63 82   53 63 35 01 02 01 04 ff |
+	| ff ff 00 3a 04 00 00 07   08 3b 04 00 00 0c 4e 33 |
+	| 04 00 00 0e 10 36 04 c0   a8 00 01 ff 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:08:74:ad:f1:9b, Dst: 00:0b:82:01:fc:42:42  
+Destination: (00:0b:82:01:fc:42)
+Source: (00:08:74:ad:f1:9b)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.10 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 328
+Identification: 0x0445 (1093)
+Flags: 0x0000	
+	Reserved bit: Not set 
+	Don't fragment: Not set 
+	More fragment: Not set
+Time to live: 128
+Protocol: UDP (17)
+Header Checksum: 0x0000
+Source: 192.168.0.1
+Destination: 192.168.0.10
+
+---------------User Diagram Protocol, 
+Source Port: 67
+Destination Port: 68
+Lenght: 308
+Checksum: 0x2233
+
+------------------------BOOTP
+Message type : Boot Reply (2) 
+Hardware type : Ethernet (0x01) 
+Hardware address length : 6 bytes
+Hops : 0
+Transaction ID : 0x00003d1d
+Seconds elapsed : 0
+Bootp flags : 0x0000
+Client IP address : 0.0.0.0
+Your (client) IP address : 192.168.0.10
+Next server IP address : 192.168.0.1
+Relay agent IP address : 0.0.0.0
+Client MAC address : 00:0b:82:01:fc:42
+Client hardware address padding : 00000000000000000000
+Server host name : not given
+Boot file name : not given
+Magic cookie : DHCP
+Option: (53) DHCP message type (OFFER)
+	lenght 1
+Option: (1) Subnet mask 255.255.255.0
+	lenght 4
+Option: (58) Renewal Time Value (1800s) 0 hours ,30 minutes, 0 seconds 
+	lenght 4
+Option: (59) Rebinding Time Value (3150s) 0 hours ,52 minutes, 30 seconds 
+	lenght 4
+Option: (51) IP address lease time (3600s) 1 hours ,0 minutes, 0 seconds 
+	lenght 4
+Option: (54) DHCP server identifier 192.168.0.1
+	lenght 4
+Option :(255) End
+
+*****************************************Packet Number 3*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| ff ff ff ff ff ff 00 0b   82 01 fc 42 08 00 45 00 |
+	| 01 2c a8 37 00 00 fa 11   17 8a 00 00 00 00 ff ff |
+	| ff ff 00 44 00 43 01 18   9f bd 01 01 06 00 00 00 |
+	| 3d 1e 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 0b   82 01 fc 42 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 63 82   53 63 35 01 03 3d 07 01 |
+	| 00 0b 82 01 fc 42 32 04   c0 a8 00 0a 36 04 c0 a8 |
+	| 00 01 37 04 01 03 06 2a   ff 00 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0b:82:01:fc:42, Dst: ff:ff:ff:ff:ff:ff:ff  
+Destination: (ff:ff:ff:ff:ff:ff)
+Source: (00:0b:82:01:fc:42)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 0.0.0.0, Dst: 255.255.255.255 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 300
+Identification: 0xa837 (43063)
+Flags: 0x0000	
+	Reserved bit: Not set 
+	Don't fragment: Not set 
+	More fragment: Not set
+Time to live: 250
+Protocol: UDP (17)
+Header Checksum: 0x178a
+Source: 0.0.0.0
+Destination: 255.255.255.255
+
+---------------User Diagram Protocol, 
+Source Port: 68
+Destination Port: 67
+Lenght: 280
+Checksum: 0x9fbd
+
+------------------------BOOTP
+Message type : Boot Request (1) 
+Hardware type : Ethernet (0x01) 
+Hardware address length : 6 bytes
+Hops : 0
+Transaction ID : 0x00003d1e
+Seconds elapsed : 0
+Bootp flags : 0x0000
+Client IP address : 0.0.0.0
+Your (client) IP address : 0.0.0.0
+Next server IP address : 0.0.0.0
+Relay agent IP address : 0.0.0.0
+Client MAC address : 00:0b:82:01:fc:42
+Client hardware address padding : 00000000000000000000
+Server host name : not given
+Boot file name : not given
+Magic cookie : DHCP
+Option: (53) DHCP message type (REQUEST)
+	lenght 1
+Option: (61) Hardware type 0x01
+	Client identifier  00:0b:82:01:fc:42
+	lenght 7
+Option: (50) Requested IP address 192.168.0.10
+	lenght 4
+Option: (54) DHCP server identifier 192.168.0.1
+	lenght 4
+Option: (55) Parameter Request List 
+	Parameter Request List Item: (1) Subnet Mask
+	Parameter Request List Item: (3) Router
+	Parameter Request List Item: (6) Domain Name Server
+	Parameter Request List Item: (42) Network Time Protocol Servers
+	lenght 4
+Option :(255) End
+
+*****************************************Packet Number 4*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 0b 82 01 fc 42 00 08   74 ad f1 9b 08 00 45 00 |
+	| 01 48 04 46 00 00 80 11   00 00 c0 a8 00 01 c0 a8 |
+	| 00 0a 00 43 00 44 01 34   df db 02 01 06 00 00 00 |
+	| 3d 1e 00 00 00 00 00 00   00 00 c0 a8 00 0a 00 00 |
+	| 00 00 00 00 00 00 00 0b   82 01 fc 42 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 63 82   53 63 35 01 05 3a 04 00 |
+	| 00 07 08 3b 04 00 00 0c   4e 33 04 00 00 0e 10 36 |
+	| 04 c0 a8 00 01 01 04 ff   ff ff 00 ff 00 00 00 00 |
+	| 00 00 00 00 00 00 00 00   00 00 00 00 00 00 00 00 |
+	| 00 00 00 00 00 00 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:08:74:ad:f1:9b, Dst: 00:0b:82:01:fc:42:42  
+Destination: (00:0b:82:01:fc:42)
+Source: (00:08:74:ad:f1:9b)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 192.168.0.1, Dst: 192.168.0.10 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 328
+Identification: 0x0446 (1094)
+Flags: 0x0000	
+	Reserved bit: Not set 
+	Don't fragment: Not set 
+	More fragment: Not set
+Time to live: 128
+Protocol: UDP (17)
+Header Checksum: 0x0000
+Source: 192.168.0.1
+Destination: 192.168.0.10
+
+---------------User Diagram Protocol, 
+Source Port: 67
+Destination Port: 68
+Lenght: 308
+Checksum: 0xdfdb
+
+------------------------BOOTP
+Message type : Boot Reply (2) 
+Hardware type : Ethernet (0x01) 
+Hardware address length : 6 bytes
+Hops : 0
+Transaction ID : 0x00003d1e
+Seconds elapsed : 0
+Bootp flags : 0x0000
+Client IP address : 0.0.0.0
+Your (client) IP address : 192.168.0.10
+Next server IP address : 0.0.0.0
+Relay agent IP address : 0.0.0.0
+Client MAC address : 00:0b:82:01:fc:42
+Client hardware address padding : 00000000000000000000
+Server host name : not given
+Boot file name : not given
+Magic cookie : DHCP
+Option: (53) DHCP message type (ACK)
+	lenght 1
+Option: (58) Renewal Time Value (1800s) 0 hours ,30 minutes, 0 seconds 
+	lenght 4
+Option: (59) Rebinding Time Value (3150s) 0 hours ,52 minutes, 30 seconds 
+	lenght 4
+Option: (51) IP address lease time (3600s) 1 hours ,0 minutes, 0 seconds 
+	lenght 4
+Option: (54) DHCP server identifier 192.168.0.1
+	lenght 4
+Option: (1) Subnet mask 255.255.255.0
+	lenght 4
+Option :(255) End
+
+
+
+
+Finished !! Thank you , Au revoir !

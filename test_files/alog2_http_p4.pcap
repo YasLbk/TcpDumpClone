@@ -1,0 +1,132 @@
+Capturing packets from the file http_p4.pcap 
+
+--------------------------------------------------------------------------------------------
+#Frame Number 1 
+Ethernet II, Src: 58:6d:8f:99:ec:a8, Dst: c4:39:3a:02:a9:2a:2a  
+--------Internet Protocol Version 4, Src: 10.1.1.2, Dst: 10.1.1.1  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 60
+
+---------------Transmission Control Protocol
+Flags: 0x02 (SYN)  Src port: 44644   ,Dst port: 80  ,Seq: -1823881168  ,Ack: 0  Window size value: 29200  Checksum: 0xe47d  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 2 
+Ethernet II, Src: c4:39:3a:02:a9:2a, Dst: 58:6d:8f:99:ec:a8:a8  
+--------Internet Protocol Version 4, Src: 10.1.1.1, Dst: 10.1.1.2  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 60
+
+---------------Transmission Control Protocol
+Flags: 0x12 (SYN) (ACK)  Src port: 80   ,Dst port: 44644  ,Seq: -106424358  ,Ack: -1823881167  Window size value: 5792  Checksum: 0x21e6  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 3 
+Ethernet II, Src: 58:6d:8f:99:ec:a8, Dst: c4:39:3a:02:a9:2a:2a  
+--------Internet Protocol Version 4, Src: 10.1.1.2, Dst: 10.1.1.1  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 44644   ,Dst port: 80  ,Seq: -1823881167  ,Ack: -106424357  Window size value: 229  Checksum: 0x6669  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 4 
+Ethernet II, Src: 58:6d:8f:99:ec:a8, Dst: c4:39:3a:02:a9:2a:2a  
+--------Internet Protocol Version 4, Src: 10.1.1.2, Dst: 10.1.1.1  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 124
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 44644   ,Dst port: 80  ,Seq: -1823881167  ,Ack: -106424357  Window size value: 229  Checksum: 0x924f  
+
+-----------------------Hypertext Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 5 
+Ethernet II, Src: c4:39:3a:02:a9:2a, Dst: 58:6d:8f:99:ec:a8:a8  
+--------Internet Protocol Version 4, Src: 10.1.1.1, Dst: 10.1.1.2  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 80   ,Dst port: 44644  ,Seq: -106424357  ,Ack: -1823881095  Window size value: 362  Checksum: 0x659c  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 6 
+Ethernet II, Src: c4:39:3a:02:a9:2a, Dst: 58:6d:8f:99:ec:a8:a8  
+--------Internet Protocol Version 4, Src: 10.1.1.1, Dst: 10.1.1.2  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 75
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 80   ,Dst port: 44644  ,Seq: -106424357  ,Ack: -1823881095  Window size value: 362  Checksum: 0x4878  
+
+-----------------------Hypertext Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 7 
+Ethernet II, Src: 58:6d:8f:99:ec:a8, Dst: c4:39:3a:02:a9:2a:2a  
+--------Internet Protocol Version 4, Src: 10.1.1.2, Dst: 10.1.1.1  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 44644   ,Dst port: 80  ,Seq: -1823881095  ,Ack: -106424334  Window size value: 229  Checksum: 0x660a  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 8 
+Ethernet II, Src: c4:39:3a:02:a9:2a, Dst: 58:6d:8f:99:ec:a8:a8  
+--------Internet Protocol Version 4, Src: 10.1.1.1, Dst: 10.1.1.2  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 407
+
+---------------Transmission Control Protocol
+Flags: 0x19 (FIN) (PSH) (ACK)  Src port: 80   ,Dst port: 44644  ,Seq: -106424334  ,Ack: -1823881095  Window size value: 362  Checksum: 0x925f  
+
+-----------------------Hypertext Transfer Protocol
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 9 
+Ethernet II, Src: 58:6d:8f:99:ec:a8, Dst: c4:39:3a:02:a9:2a:2a  
+--------Internet Protocol Version 4, Src: 10.1.1.2, Dst: 10.1.1.1  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x11 (FIN) (ACK)  Src port: 44644   ,Dst port: 80  ,Seq: -1823881095  ,Ack: -106423978  Window size value: 237  Checksum: 0x649c  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 10 
+Ethernet II, Src: c4:39:3a:02:a9:2a, Dst: 58:6d:8f:99:ec:a8:a8  
+--------Internet Protocol Version 4, Src: 10.1.1.1, Dst: 10.1.1.2  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 52
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 80   ,Dst port: 44644  ,Seq: -106423978  ,Ack: -1823881094  Window size value: 362  Checksum: 0x641f  
+
+
+
+
+
+Finished !! Thank you , Au revoir !

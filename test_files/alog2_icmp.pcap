@@ -1,0 +1,39 @@
+Capturing packets from the file icmp.pcap 
+
+--------------------------------------------------------------------------------------------
+#Frame Number 1 
+Ethernet II, Src: 08:00:27:fc:6a:c9, Dst: 08:00:27:e2:9f:a6:a6  
+--------Internet Protocol Version 4, Src: 2.1.1.2, Dst: 2.1.1.1  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 996
+
+---------------Internet Control Message Protocol
+Type: 8 (Echo Request)
+
+--------------------------------------------------------------------------------------------
+#Frame Number 2 
+Ethernet II, Src: 08:00:27:fc:6a:c9, Dst: 08:00:27:e2:9f:a6:a6  
+--------Internet Protocol Version 4, Src: 2.1.1.2, Dst: 2.1.1.1  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 452
+
+---------------Internet Control Message Protocol
+Type: 200 Unknown
+
+--------------------------------------------------------------------------------------------
+#Frame Number 3 
+Ethernet II, Src: 08:00:27:e2:9f:a6, Dst: 08:00:27:fc:6a:c9:c9  
+--------Internet Protocol Version 4, Src: 2.1.1.1, Dst: 2.1.1.2  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 1428
+
+---------------Internet Control Message Protocol
+Type: 0 (Echo Reply)
+
+
+
+
+Finished !! Thank you , Au revoir !

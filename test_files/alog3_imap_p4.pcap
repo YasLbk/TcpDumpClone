@@ -1,0 +1,191 @@
+Capturing packets from the file imap_p4.pcap 
+
+*****************************************Packet Number 1*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 5e 00 01 01 00 0f   f7 76 82 80 08 00 45 00 |
+	| 00 30 ca 19 40 00 7e 06   98 0b 0a 00 00 01 0a 00 |
+	| 00 02 12 23 00 8f 89 c9   03 66 00 00 00 00 70 02 |
+	| 7f ff c8 c9 00 00 02 04   05 86 01 01 04 02 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0f:f7:76:82:80, Dst: 00:00:5e:00:01:01:01  
+Destination: (00:00:5e:00:01:01)
+Source: (00:0f:f7:76:82:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.0.0.1, Dst: 10.0.0.2 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 48
+Identification: 0xca19 (51737)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 126
+Protocol: TCP (6)
+Header Checksum: 0x980b
+Source: 10.0.0.1
+Destination: 10.0.0.2
+
+---------------Transmission Control Protocol
+Source port: 4643
+Destination port: 143
+Sequence number: 2311652198
+Acknowledgment number: 0
+Flags: 0x02 (SYN)
+Window size value: 32767
+Checksum: 0xc8c9
+Urgent pointer: 0
+Options: (8 bytes) 
+	Kind: maximum segment size (2)
+		Length: 4
+		MSS value: 1414
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: SACK permited (4)
+		Length: 2
+
+
+
+*****************************************Packet Number 2*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 0f f7 76 82 80 00 1d   b5 ce ef c0 08 00 45 00 |
+	| 00 30 00 00 40 00 38 06   a8 25 0a 00 00 02 0a 00 |
+	| 00 01 00 8f 12 23 7f 4a   db 32 89 c9 03 67 70 12 |
+	| 16 d0 d7 3c 00 00 02 04   05 b4 01 01 04 02 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:b5:ce:ef:c0, Dst: 00:0f:f7:76:82:80:80  
+Destination: (00:0f:f7:76:82:80)
+Source: (00:1d:b5:ce:ef:c0)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.0.0.2, Dst: 10.0.0.1 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 48
+Identification: 0x0000 (0)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0xa825
+Source: 10.0.0.2
+Destination: 10.0.0.1
+
+---------------Transmission Control Protocol
+Source port: 143
+Destination port: 4643
+Sequence number: 2135612210
+Acknowledgment number: 2311652199
+Flags: 0x12 (SYN) (ACK)
+Window size value: 5840
+Checksum: 0xd73c
+Urgent pointer: 0
+Options: (8 bytes) 
+	Kind: maximum segment size (2)
+		Length: 4
+		MSS value: 1460
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: SACK permited (4)
+		Length: 2
+
+
+
+*****************************************Packet Number 3*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 5e 00 01 01 00 0f   f7 76 82 80 08 00 45 00 |
+	| 00 28 ca 1a 40 00 7e 06   98 12 0a 00 00 01 0a 00 |
+	| 00 02 12 23 00 8f 89 c9   03 67 7f 4a db 33 50 10 |
+	| 84 90 96 40 00 00 00 00   00 00 00 00 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0f:f7:76:82:80, Dst: 00:00:5e:00:01:01:01  
+Destination: (00:00:5e:00:01:01)
+Source: (00:0f:f7:76:82:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.0.0.1, Dst: 10.0.0.2 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 40
+Identification: 0xca1a (51738)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 126
+Protocol: TCP (6)
+Header Checksum: 0x9812
+Source: 10.0.0.1
+Destination: 10.0.0.2
+
+---------------Transmission Control Protocol
+Source port: 4643
+Destination port: 143
+Sequence number: 2311652199
+Acknowledgment number: 2135612211
+Flags: 0x10 (ACK)
+Window size value: 33936
+Checksum: 0x9640
+Urgent pointer: 0
+Options: (0 bytes) 
+
+
+
+*****************************************Packet Number 4*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 0f f7 76 82 80 00 1d   b5 ce ef c0 08 00 45 00 |
+	| 00 3a 45 3e 40 00 38 06   62 dd 0a 00 00 02 0a 00 |
+	| 00 01 00 8f 12 23 7f 4a   db 33 89 c9 03 67 50 18 |
+	| 16 d0 d5 65 00 00 2a 20   4f 4b 20 49 4d 41 50 34 |
+	| 20 72 65 61 64 79 0d 0a   
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:1d:b5:ce:ef:c0, Dst: 00:0f:f7:76:82:80:80  
+Destination: (00:0f:f7:76:82:80)
+Source: (00:1d:b5:ce:ef:c0)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.0.0.2, Dst: 10.0.0.1 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 58
+Identification: 0x453e (17726)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x62dd
+Source: 10.0.0.2
+Destination: 10.0.0.1
+
+---------------Transmission Control Protocol
+Source port: 143
+Destination port: 4643
+Sequence number: 2135612211
+Acknowledgment number: 2311652199
+Flags: 0x18 (PSH) (ACK)
+Window size value: 5840
+Checksum: 0xd565
+Urgent pointer: 0
+Options: (0 bytes) 
+
+-----------------------Internet Message Access Protocol
+Ligne : * OK IMAP4 ready
+
+
+
+
+
+Finished !! Thank you , Au revoir !

@@ -1,0 +1,76 @@
+Capturing packets from the file dns.pcap 
+
+--------------------------------------------------------------------------------------------
+#Frame Number 1 
+Ethernet II, Src: 00:1f:5b:ff:51:cb, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.141, Dst: 10.2.95.39  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 60
+
+---------------User Diagram Protocol, Src Port: 62563, Dst port: 53
+		Lenght: 40  
+		Checksum: 0x93ab
+ (DNS)
+------------------------Domain Name System
+||Queries  Name: .www.github.com [Name lenght]: 15   Type :A (Address record) (1) Class : IN (0x0001) 
+--------------------------------------------------------------------------------------------
+#Frame Number 2 
+Ethernet II, Src: 00:d0:2b:d1:76:00, Dst: 00:1f:5b:ff:51:cb:cb  
+--------Internet Protocol Version 4, Src: 10.2.95.39, Dst: 10.180.156.141  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 240
+
+---------------User Diagram Protocol, Src Port: 53, Dst port: 62563
+		Lenght: 220  
+		Checksum: 0x9d7f
+ (DNS)
+------------------------Domain Name System
+||Queries  Name: .www.github.com [Name lenght]: 15   Type :A (Address record) (1) Class : IN (0x0001) ||Answers  Type :CNAME (Canonical name record) (5) Class :IN (0x0001) Type :A (Address record) (1) Class :IN (0x0001) 
+--------------------------------------------------------------------------------------------
+#Frame Number 3 
+Ethernet II, Src: 00:1f:5b:ff:51:cb, Dst: 00:00:0c:07:ac:01:01  
+--------Internet Protocol Version 4, Src: 10.180.156.141, Dst: 10.178.8.71  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 60
+
+---------------User Diagram Protocol, Src Port: 62416, Dst port: 53
+		Lenght: 40  
+		Checksum: 0xea6e
+ (DNS)
+------------------------Domain Name System
+||Queries  Name: .www.github.com [Name lenght]: 15   Type :A (Address record) (1) Class : IN (0x0001) 
+--------------------------------------------------------------------------------------------
+#Frame Number 4 
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:1f:5b:ff:51:cb:cb  
+--------Internet Protocol Version 4, Src: 10.178.8.71, Dst: 10.180.156.141  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 240
+
+---------------User Diagram Protocol, Src Port: 53, Dst port: 62416
+		Lenght: 220  
+		Checksum: 0xedd6
+ (DNS)
+------------------------Domain Name System
+||Queries  Name: .www.github.com [Name lenght]: 15   Type :A (Address record) (1) Class : IN (0x0001) ||Answers  Type :CNAME (Canonical name record) (5) Class :IN (0x0001) Type :A (Address record) (1) Class :IN (0x0001) 
+--------------------------------------------------------------------------------------------
+#Frame Number 5 
+Ethernet II, Src: ac:4b:c8:4c:9f:c1, Dst: 20:4e:71:c5:11:c0:c0  
+--------Internet Protocol Version 4, Src: 10.10.10.10, Dst: 10.10.10.11  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 82
+
+---------------User Diagram Protocol, Src Port: 5353, Dst port: 53
+		Lenght: 62  
+		Checksum: 0x5a66
+ (DNS)
+------------------------Domain Name System
+||Queries  Name: .10.100.10.10.in-addr.arpa [Name lenght]: 26   Type :Unknown Class : IN (0x0001) 
+
+
+
+Finished !! Thank you , Au revoir !

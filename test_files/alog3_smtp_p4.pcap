@@ -1,0 +1,1591 @@
+Capturing packets from the file smtp_p4.pcap 
+
+*****************************************Packet Number 1*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 3c d5 6f 40 00 40 06   3b d2 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   12 c9 00 00 00 00 a0 02 |
+	| 39 08 e7 51 00 00 02 04   05 b4 04 02 08 0a af 1d |
+	| c7 a6 00 00 00 00 01 03   03 07 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 60
+Identification: 0xd56f (54639)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bd2
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191149257
+Acknowledgment number: 0
+Flags: 0x02 (SYN)
+Window size value: 14600
+Checksum: 0xe751
+Urgent pointer: 0
+Options: (20 bytes) 
+	Kind: maximum segment size (2)
+		Length: 4
+		MSS value: 1460
+	Kind: SACK permited (4)
+		Length: 2
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964454
+		Timestamp echo reply: 0
+	Kind: No-Operation (1)
+	Kind: windows scale (3)
+		Length: 3
+		Shift count: 7
+
+
+
+*****************************************Packet Number 2*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 3c 00 00 40 00 38 06   19 42 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   94 58 be 35 12 ca a0 12 |
+	| 38 90 9e 62 00 00 02 04   05 b4 04 02 08 0a ce 86 |
+	| 34 3e af 1d c7 a6 01 03   03 06 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 60
+Identification: 0x0000 (0)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x1942
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990117976
+Acknowledgment number: 3191149258
+Flags: 0x12 (SYN) (ACK)
+Window size value: 14480
+Checksum: 0x9e62
+Urgent pointer: 0
+Options: (20 bytes) 
+	Kind: maximum segment size (2)
+		Length: 4
+		MSS value: 1460
+	Kind: SACK permited (4)
+		Length: 2
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901694
+		Timestamp echo reply: 2937964454
+	Kind: No-Operation (1)
+	Kind: windows scale (3)
+		Length: 3
+		Shift count: 6
+
+
+
+*****************************************Packet Number 3*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 34 d5 70 40 00 40 06   3b d9 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   12 ca b2 39 94 59 80 10 |
+	| 00 73 05 4a 00 00 01 01   08 0a af 1d c7 a7 ce 86 |
+	| 34 3e 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xd570 (54640)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bd9
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191149258
+Acknowledgment number: 2990117977
+Flags: 0x10 (ACK)
+Window size value: 115
+Checksum: 0x054a
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964455
+		Timestamp echo reply: 3464901694
+
+
+
+*****************************************Packet Number 4*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 7b a0 67 40 00 38 06   78 9b 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   94 59 be 35 12 ca 80 18 |
+	| 00 e3 5f 71 00 00 01 01   08 0a ce 86 34 3f af 1d |
+	| c7 a7 32 32 30 20 78 78   78 78 78 78 78 78 78 78 |
+	| 78 78 78 78 78 31 2e 78   78 78 2e 63 6f 6d 20 45 |
+	| 53 4d 54 50 20 28 38 63   35 33 65 34 37 61 30 65 |
+	| 32 36 37 64 63 38 66 61   35 61 33 64 39 35 61 32 |
+	| 30 63 37 61 37 35 29 0d   0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 123
+Identification: 0xa067 (41063)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x789b
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990117977
+Acknowledgment number: 3191149258
+Flags: 0x18 (PSH) (ACK)
+Window size value: 227
+Checksum: 0x5f71
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901695
+		Timestamp echo reply: 2937964455
+
+-----------------------Simple Mail Transfer Protocol
+220 xxxxxxxxxxxxxxx1.xxx.com ESMTP (8c53e47a0e267dc8fa5a3d95a20c7a75)
+
+
+
+*****************************************Packet Number 5*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 34 d5 71 40 00 40 06   3b d8 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   12 ca b2 39 94 a0 80 10 |
+	| 00 73 04 ff 00 00 01 01   08 0a af 1d c7 aa ce 86 |
+	| 34 3f 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xd571 (54641)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bd8
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191149258
+Acknowledgment number: 2990118048
+Flags: 0x10 (ACK)
+Window size value: 115
+Checksum: 0x04ff
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964458
+		Timestamp echo reply: 3464901695
+
+
+
+*****************************************Packet Number 6*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 50 d5 72 40 00 40 06   3b bb 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   12 ca b2 39 94 a0 80 18 |
+	| 00 73 29 bd 00 00 01 01   08 0a af 1d c7 aa ce 86 |
+	| 34 3f 45 48 4c 4f 20 78   78 78 78 78 78 78 78 78 |
+	| 78 78 78 78 2e 78 78 78   2e 63 6f 6d 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 80
+Identification: 0xd572 (54642)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bbb
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191149258
+Acknowledgment number: 2990118048
+Flags: 0x18 (PSH) (ACK)
+Window size value: 115
+Checksum: 0x29bd
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964458
+		Timestamp echo reply: 3464901695
+
+-----------------------Simple Mail Transfer Protocol
+EHLO xxxxxxxxxxxxx.xxx.com
+
+
+
+*****************************************Packet Number 7*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 34 a0 68 40 00 38 06   78 e1 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   94 a0 be 35 12 e6 80 10 |
+	| 00 e3 04 73 00 00 01 01   08 0a ce 86 34 3f af 1d |
+	| c7 aa 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xa068 (41064)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x78e1
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990118048
+Acknowledgment number: 3191149286
+Flags: 0x10 (ACK)
+Window size value: 227
+Checksum: 0x0473
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901695
+		Timestamp echo reply: 2937964458
+
+
+
+*****************************************Packet Number 8*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 dd a0 69 40 00 38 06   78 37 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   94 a0 be 35 12 e6 80 18 |
+	| 00 e3 70 3b 00 00 01 01   08 0a ce 86 34 3f af 1d |
+	| c7 aa 32 35 30 2d 78 78   78 78 78 78 78 78 78 78 |
+	| 78 78 78 78 78 31 2e 78   78 78 2e 63 6f 6d 20 48 |
+	| 65 6c 6c 6f 20 78 78 78   78 78 78 78 78 78 78 78 |
+	| 78 78 2e 78 78 78 2e 63   6f 6d 20 5b 31 30 2e 31 |
+	| 38 30 2e 31 35 36 2e 32   34 39 5d 2c 20 70 6c 65 |
+	| 61 73 65 64 20 74 6f 20   6d 65 65 74 20 79 6f 75 |
+	| 0d 0a 32 35 30 2d 53 49   5a 45 20 33 32 37 32 38 |
+	| 36 34 30 0d 0a 32 35 30   2d 53 54 41 52 54 54 4c |
+	| 53 0d 0a 32 35 30 2d 50   49 50 45 4c 49 4e 49 4e |
+	| 47 0d 0a 32 35 30 2d 38   42 49 54 4d 49 4d 45 0d |
+	| 0a 32 35 30 20 48 45 4c   50 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 221
+Identification: 0xa069 (41065)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x7837
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990118048
+Acknowledgment number: 3191149286
+Flags: 0x18 (PSH) (ACK)
+Window size value: 227
+Checksum: 0x703b
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901695
+		Timestamp echo reply: 2937964458
+
+-----------------------Simple Mail Transfer Protocol
+250-xxxxxxxxxxxxxxx1.xxx.com Hello xxxxxxxxxxxxx.xxx.com [10.180.156.249], pleased to meet you
+250-SIZE 32728640
+250-STARTTLS
+250-PIPELINING
+250-8BITMIME
+250 HELP
+
+
+
+*****************************************Packet Number 9*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 59 d5 73 40 00 40 06   3b b1 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   12 e6 b2 39 95 49 80 18 |
+	| 00 7b 29 c6 00 00 01 01   08 0a af 1d c7 ac ce 86 |
+	| 34 3f 4d 41 49 4c 20 46   72 6f 6d 3a 3c 78 78 78 |
+	| 78 78 40 78 78 78 2e 6e   65 74 3e 20 53 49 5a 45 |
+	| 3d 31 33 37 39 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 89
+Identification: 0xd573 (54643)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bb1
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191149286
+Acknowledgment number: 2990118217
+Flags: 0x18 (PSH) (ACK)
+Window size value: 123
+Checksum: 0x29c6
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964460
+		Timestamp echo reply: 3464901695
+
+-----------------------Simple Mail Transfer Protocol
+MAIL From:<xxxxx@xxx.net> SIZE=1379
+
+
+
+*****************************************Packet Number 10*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 53 a0 6a 40 00 38 06   78 c0 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   95 49 be 35 13 0b 80 18 |
+	| 00 e3 fd f3 00 00 01 01   08 0a ce 86 34 40 af 1d |
+	| c7 ac 32 35 30 20 53 65   6e 64 65 72 20 3c 78 78 |
+	| 78 78 78 40 78 78 78 2e   6e 65 74 3e 20 4f 4b 0d |
+	| 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 83
+Identification: 0xa06a (41066)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x78c0
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990118217
+Acknowledgment number: 3191149323
+Flags: 0x18 (PSH) (ACK)
+Window size value: 227
+Checksum: 0xfdf3
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901696
+		Timestamp echo reply: 2937964460
+
+-----------------------Simple Mail Transfer Protocol
+250 Sender <xxxxx@xxx.net> OK
+
+
+
+*****************************************Packet Number 11*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 5b d5 74 40 00 40 06   3b ae 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   13 0b b2 39 95 68 80 18 |
+	| 00 7b 29 c8 00 00 01 01   08 0a af 1d c7 ae ce 86 |
+	| 34 40 52 43 50 54 20 54   6f 3a 3c 78 78 78 78 78 |
+	| 78 78 78 78 40 78 78 78   78 78 78 78 2e 63 6f 6d |
+	| 3e 0d 0a 44 41 54 41 0d   0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 91
+Identification: 0xd574 (54644)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bae
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191149323
+Acknowledgment number: 2990118248
+Flags: 0x18 (PSH) (ACK)
+Window size value: 123
+Checksum: 0x29c8
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964462
+		Timestamp echo reply: 3464901696
+
+-----------------------Simple Mail Transfer Protocol
+RCPT To:<xxxxxxxxx@xxxxxxx.com>
+DATA
+
+
+
+*****************************************Packet Number 12*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 5e a0 6b 40 00 38 06   78 b4 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   95 68 be 35 13 32 80 18 |
+	| 00 e3 e7 57 00 00 01 01   08 0a ce 86 34 41 af 1d |
+	| c7 ae 32 35 30 20 52 65   63 69 70 69 65 6e 74 20 |
+	| 3c 78 78 78 78 78 78 78   78 78 40 78 78 78 78 78 |
+	| 78 78 2e 63 6f 6d 3e 20   4f 4b 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 94
+Identification: 0xa06b (41067)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x78b4
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990118248
+Acknowledgment number: 3191149362
+Flags: 0x18 (PSH) (ACK)
+Window size value: 227
+Checksum: 0xe757
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901697
+		Timestamp echo reply: 2937964462
+
+-----------------------Simple Mail Transfer Protocol
+250 Recipient <xxxxxxxxx@xxxxxxx.com> OK
+
+
+
+*****************************************Packet Number 13*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 34 d5 75 40 00 40 06   3b d4 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   13 32 b2 39 95 92 80 10 |
+	| 00 7b 03 6b 00 00 01 01   08 0a af 1d c7 da ce 86 |
+	| 34 41 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xd575 (54645)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bd4
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191149362
+Acknowledgment number: 2990118290
+Flags: 0x10 (ACK)
+Window size value: 123
+Checksum: 0x036b
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964506
+		Timestamp echo reply: 3464901697
+
+
+
+*****************************************Packet Number 14*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 62 a0 6c 40 00 38 06   78 af 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   95 92 be 35 13 32 80 18 |
+	| 00 e3 d6 ee 00 00 01 01   08 0a ce 86 34 4b af 1d |
+	| c7 da 33 35 34 20 53 74   61 72 74 20 6d 61 69 6c |
+	| 20 69 6e 70 75 74 3b 20   65 6e 64 20 77 69 74 68 |
+	| 20 3c 43 52 4c 46 3e 2e   3c 43 52 4c 46 3e 0d 0a |
+	| 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 98
+Identification: 0xa06c (41068)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x78af
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990118290
+Acknowledgment number: 3191149362
+Flags: 0x18 (PSH) (ACK)
+Window size value: 227
+Checksum: 0xd6ee
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901707
+		Timestamp echo reply: 2937964506
+
+-----------------------Simple Mail Transfer Protocol
+354 Start mail input; end with <CRLF>.<CRLF>
+
+
+
+*****************************************Packet Number 15*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 34 d5 76 40 00 40 06   3b d3 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   13 32 b2 39 95 c0 80 10 |
+	| 00 7b 03 32 00 00 01 01   08 0a af 1d c7 db ce 86 |
+	| 34 4b 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xd576 (54646)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bd3
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191149362
+Acknowledgment number: 2990118336
+Flags: 0x10 (ACK)
+Window size value: 123
+Checksum: 0x0332
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964507
+		Timestamp echo reply: 3464901707
+
+
+
+*****************************************Packet Number 16*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 05 9e d5 77 40 00 40 06   36 68 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   13 32 b2 39 95 c0 80 18 |
+	| 00 7b 2f 0b 00 00 01 01   08 0a af 1d c7 dd ce 86 |
+	| 34 4b 52 65 63 65 69 76   65 64 3a 20 66 72 6f 6d |
+	| 20 78 78 78 78 78 78 78   78 78 78 78 78 78 2e 78 |
+	| 78 78 2e 63 6f 6d 20 28   6c 6f 63 61 6c 68 6f 73 |
+	| 74 2e 6c 6f 63 61 6c 64   6f 6d 61 69 6e 20 5b 31 |
+	| 32 37 2e 30 2e 30 2e 31   5d 29 0d 0a 09 62 79 20 |
+	| 78 78 78 78 78 78 78 78   78 78 78 78 78 2e 78 78 |
+	| 78 2e 63 6f 6d 20 28 38   2e 31 34 2e 34 2f 38 2e |
+	| 31 34 2e 34 29 20 77 69   74 68 20 45 53 4d 54 50 |
+	| 20 69 64 20 72 42 48 45   6f 47 34 53 30 32 39 36 |
+	| 36 30 0d 0a 09 66 6f 72   20 3c 78 78 78 78 78 78 |
+	| 78 78 78 40 78 78 78 78   78 78 78 2e 63 6f 6d 3e |
+	| 3b 20 54 75 65 2c 20 31   37 20 44 65 63 20 32 30 |
+	| 31 33 20 30 39 3a 35 30   3a 31 37 20 2d 30 35 30 |
+	| 30 0d 0a 52 65 63 65 69   76 65 64 3a 20 28 66 72 |
+	| 6f 6d 20 78 78 78 78 78   40 6c 6f 63 61 6c 68 6f |
+	| 73 74 29 0d 0a 09 62 79   20 78 78 78 78 78 78 78 |
+	| 78 78 78 78 78 78 2e 78   78 78 2e 63 6f 6d 20 28 |
+	| 38 2e 31 34 2e 34 2f 38   2e 31 34 2e 34 2f 53 75 |
+	| 62 6d 69 74 29 20 69 64   20 72 42 48 45 6f 47 68 |
+	| 61 30 32 39 36 35 37 0d   0a 09 66 6f 72 20 78 78 |
+	| 78 78 78 78 78 78 78 40   78 78 78 78 78 78 78 2e |
+	| 63 6f 6d 3b 20 54 75 65   2c 20 31 37 20 44 65 63 |
+	| 20 32 30 31 33 20 30 39   3a 35 30 3a 31 36 20 2d |
+	| 30 35 30 30 0d 0a 44 61   74 65 3a 20 54 75 65 2c |
+	| 20 31 37 20 44 65 63 20   32 30 31 33 20 30 39 3a |
+	| 35 30 3a 31 36 20 2d 30   35 30 30 0d 0a 46 72 6f |
+	| 6d 3a 20 78 78 78 78 78   78 78 78 78 20 3c 78 78 |
+	| 78 78 78 40 78 78 78 2e   6e 65 74 3e 0d 0a 54 6f |
+	| 3a 20 78 78 78 78 78 78   78 78 78 40 78 78 78 78 |
+	| 78 78 78 2e 63 6f 6d 0d   0a 53 75 62 6a 65 63 74 |
+	| 3a 20 7a 69 70 20 74 65   73 74 0d 0a 4d 65 73 73 |
+	| 61 67 65 2d 49 44 3a 20   3c 32 30 31 33 31 32 31 |
+	| 37 31 34 35 30 31 36 2e   47 41 32 39 30 37 37 40 |
+	| 78 78 78 2e 6e 65 74 3e   0d 0a 4d 49 4d 45 2d 56 |
+	| 65 72 73 69 6f 6e 3a 20   31 2e 30 0d 0a 43 6f 6e |
+	| 74 65 6e 74 2d 54 79 70   65 3a 20 6d 75 6c 74 69 |
+	| 70 61 72 74 2f 6d 69 78   65 64 3b 20 62 6f 75 6e |
+	| 64 61 72 79 3d 22 48 63   41 59 43 47 33 75 45 2f |
+	| 74 7a 74 66 6e 56 22 0d   0a 43 6f 6e 74 65 6e 74 |
+	| 2d 44 69 73 70 6f 73 69   74 69 6f 6e 3a 20 69 6e |
+	| 6c 69 6e 65 0d 0a 55 73   65 72 2d 41 67 65 6e 74 |
+	| 3a 20 4d 75 74 74 2f 31   2e 35 2e 32 30 20 28 32 |
+	| 30 30 39 2d 31 32 2d 31   30 29 0d 0a 0d 0a 0d 0a |
+	| 2d 2d 48 63 41 59 43 47   33 75 45 2f 74 7a 74 66 |
+	| 6e 56 0d 0a 43 6f 6e 74   65 6e 74 2d 54 79 70 65 |
+	| 3a 20 74 65 78 74 2f 70   6c 61 69 6e 3b 20 63 68 |
+	| 61 72 73 65 74 3d 75 73   2d 61 73 63 69 69 0d 0a |
+	| 43 6f 6e 74 65 6e 74 2d   44 69 73 70 6f 73 69 74 |
+	| 69 6f 6e 3a 20 69 6e 6c   69 6e 65 0d 0a 0d 0a 61 |
+	| 20 7a 69 70 20 74 65 73   74 0d 0a 0d 0a 2d 2d 48 |
+	| 63 41 59 43 47 33 75 45   2f 74 7a 74 66 6e 56 0d |
+	| 0a 43 6f 6e 74 65 6e 74   2d 54 79 70 65 3a 20 61 |
+	| 70 70 6c 69 63 61 74 69   6f 6e 2f 7a 69 70 0d 0a |
+	| 43 6f 6e 74 65 6e 74 2d   44 69 73 70 6f 73 69 74 |
+	| 69 6f 6e 3a 20 61 74 74   61 63 68 6d 65 6e 74 3b |
+	| 20 66 69 6c 65 6e 61 6d   65 3d 22 61 2e 7a 69 70 |
+	| 22 0d 0a 43 6f 6e 74 65   6e 74 2d 54 72 61 6e 73 |
+	| 66 65 72 2d 45 6e 63 6f   64 69 6e 67 3a 20 62 61 |
+	| 73 65 36 34 0d 0a 0d 0a   55 45 73 44 42 41 6f 41 |
+	| 41 41 41 41 41 43 64 4f   6b 55 4d 45 39 79 6e 69 |
+	| 42 67 41 41 41 41 59 41   41 41 41 46 41 42 77 41 |
+	| 5a 6d 6c 73 5a 54 46 56   56 41 6b 41 41 32 6c 6b |
+	| 73 46 4a 70 5a 4c 42 53   64 58 67 4c 41 41 45 45 |
+	| 0d 0a 54 41 59 41 41 41   51 43 42 41 41 41 5a 6d |
+	| 6c 73 5a 54 45 4b 55 45   73 44 42 41 6f 41 41 41 |
+	| 41 41 41 43 6c 4f 6b 55   50 48 70 41 54 4a 42 67 |
+	| 41 41 41 41 59 41 41 41   41 46 41 42 77 41 5a 6d |
+	| 6c 73 5a 54 4a 56 56 41   6b 41 0d 0a 41 32 35 6b |
+	| 73 46 4a 75 5a 4c 42 53   64 58 67 4c 41 41 45 45 |
+	| 54 41 59 41 41 41 51 43   42 41 41 41 5a 6d 6c 73 |
+	| 5a 54 49 4b 55 45 73 42   41 68 34 44 43 67 41 41 |
+	| 41 41 41 41 4a 30 36 52   51 77 54 33 4b 65 49 47 |
+	| 41 41 41 41 0d 0a 42 67   41 41 41 41 55 41 47 41 |
+	| 41 41 41 41 41 41 41 51   41 41 41 4b 53 42 41 41 |
+	| 41 41 41 47 5a 70 62 47   55 78 56 56 51 46 41 41 |
+	| 4e 70 5a 4c 42 53 64 58   67 4c 41 41 45 45 54 41 |
+	| 59 41 41 41 51 43 42 41   41 41 55 45 73 42 0d 0a |
+	| 41 68 34 44 43 67 41 41   41 41 41 41 4b 55 36 52 |
+	| 51 38 65 6b 42 4d 6b 47   41 41 41 41 42 67 41 41 |
+	| 41 41 55 41 47 41 41 41   41 41 41 41 41 51 41 41 |
+	| 41 4b 53 42 52 51 41 41   41 47 5a 70 62 47 55 79 |
+	| 56 56 51 46 41 41 4e 75   0d 0a 5a 4c 42 53 64 58 |
+	| 67 4c 41 41 45 45 54 41   59 41 41 41 51 43 42 41 |
+	| 41 41 55 45 73 46 42 67   41 41 41 41 41 43 41 41 |
+	| 49 41 6c 67 41 41 41 49   6f 41 41 41 41 41 41 41 |
+	| 3d 3d 0d 0a 0d 0a 2d 2d   48 63 41 59 43 47 33 75 |
+	| 45 2f 74 7a 74 66 6e 56   2d 2d 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 1438
+Identification: 0xd577 (54647)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3668
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191149362
+Acknowledgment number: 2990118336
+Flags: 0x18 (PSH) (ACK)
+Window size value: 123
+Checksum: 0x2f0b
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964509
+		Timestamp echo reply: 3464901707
+
+-----------------------Simple Mail Transfer Protocol
+Received: from xxxxxxxxxxxxx.xxx.com (localhost.localdomain [127.0.0.1])
+	by xxxxxxxxxxxxx.xxx.com (8.14.4/8.14.4) with ESMTP id rBHEoG4S029660
+	for <xxxxxxxxx@xxxxxxx.com>; Tue, 17 Dec 2013 09:50:17 -0500
+Received: (from xxxxx@localhost)
+	by xxxxxxxxxxxxx.xxx.com (8.14.4/8.14.4/Submit) id rBHEoGha029657
+	for xxxxxxxxx@xxxxxxx.com; Tue, 17 Dec 2013 09:50:16 -0500
+Date: Tue, 17 Dec 2013 09:50:16 -0500
+From: xxxxxxxxx <xxxxx@xxx.net>
+To: xxxxxxxxx@xxxxxxx.com
+Subject: zip test
+Message-ID: <20131217145016.GA29077@xxx.net>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="HcAYCG3uE/tztfnV"
+Content-Disposition: inline
+User-Agent: Mutt/1.5.20 (2009-12-10)
+
+
+--HcAYCG3uE/tztfnV
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+
+a zip test
+
+--HcAYCG3uE/tztfnV
+Content-Type: application/zip
+Content-Disposition: attachment; filename="a.zip"
+Content-Transfer-Encoding: base64
+
+UEsDBAoAAAAAACdOkUME9yniBgAAAAYAAAAFABwAZmlsZTFVVAkAA2lksFJpZLBSdXgLAAEE
+TAYAAAQCBAAAZmlsZTEKUEsDBAoAAAAAAClOkUPHpATJBgAAAAYAAAAFABwAZmlsZTJVVAkA
+A25ksFJuZLBSdXgLAAEETAYAAAQCBAAAZmlsZTIKUEsBAh4DCgAAAAAAJ06RQwT3KeIGAAAA
+BgAAAAUAGAAAAAAAAQAAAKSBAAAAAGZpbGUxVVQFAANpZLBSdXgLAAEETAYAAAQCBAAAUEsB
+Ah4DCgAAAAAAKU6RQ8ekBMkGAAAABgAAAAUAGAAAAAAAAQAAAKSBRQAAAGZpbGUyVVQFAANu
+ZLBSdXgLAAEETAYAAAQCBAAAUEsFBgAAAAACAAIAlgAAAIoAAAAAAA==
+
+--HcAYCG3uE/tztfnV--
+
+
+
+*****************************************Packet Number 17*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 34 a0 6d 40 00 38 06   78 dc 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   95 c0 be 35 18 9c 80 10 |
+	| 01 0e fd 27 00 00 01 01   08 0a ce 86 34 56 af 1d |
+	| c7 dd 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xa06d (41069)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x78dc
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990118336
+Acknowledgment number: 3191150748
+Flags: 0x10 (ACK)
+Window size value: 270
+Checksum: 0xfd27
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901718
+		Timestamp echo reply: 2937964509
+
+
+
+*****************************************Packet Number 18*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 37 d5 78 40 00 40 06   3b ce 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   18 9c b2 39 95 c0 80 18 |
+	| 00 7b 29 a4 00 00 01 01   08 0a af 1d c8 05 ce 86 |
+	| 34 56 2e 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 55
+Identification: 0xd578 (54648)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bce
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191150748
+Acknowledgment number: 2990118336
+Flags: 0x18 (PSH) (ACK)
+Window size value: 123
+Checksum: 0x29a4
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964549
+		Timestamp echo reply: 3464901718
+
+-----------------------Simple Mail Transfer Protocol
+.
+
+
+
+*****************************************Packet Number 19*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 34 a0 6e 40 00 38 06   78 db 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   95 c0 be 35 18 9f 80 10 |
+	| 01 0e fc fc 00 00 01 01   08 0a ce 86 34 56 af 1d |
+	| c8 05 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xa06e (41070)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x78db
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990118336
+Acknowledgment number: 3191150751
+Flags: 0x10 (ACK)
+Window size value: 270
+Checksum: 0xfcfc
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901718
+		Timestamp echo reply: 2937964549
+
+
+
+*****************************************Packet Number 20*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 53 a0 6f 40 00 38 06   78 bb 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   95 c0 be 35 18 9f 80 18 |
+	| 01 0e dd d1 00 00 01 01   08 0a ce 86 34 82 af 1d |
+	| c8 05 32 35 30 20 4f 6b   3a 20 71 75 65 75 65 64 |
+	| 20 61 73 20 35 43 46 38   33 32 34 34 30 37 46 0d |
+	| 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 83
+Identification: 0xa06f (41071)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x78bb
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990118336
+Acknowledgment number: 3191150751
+Flags: 0x18 (PSH) (ACK)
+Window size value: 270
+Checksum: 0xddd1
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901762
+		Timestamp echo reply: 2937964549
+
+-----------------------Simple Mail Transfer Protocol
+250 Ok: queued as 5CF8324407F
+
+
+
+*****************************************Packet Number 21*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 34 d5 79 40 00 40 06   3b d0 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   18 9f b2 39 95 df 80 10 |
+	| 00 7b fc 6c 00 00 01 01   08 0a af 1d c8 dd ce 86 |
+	| 34 82 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xd579 (54649)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bd0
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191150751
+Acknowledgment number: 2990118367
+Flags: 0x10 (ACK)
+Window size value: 123
+Checksum: 0xfc6c
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964765
+		Timestamp echo reply: 3464901762
+
+
+
+*****************************************Packet Number 22*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 3a d5 7a 40 00 40 06   3b c9 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   18 9f b2 39 95 df 80 18 |
+	| 00 7b 29 a7 00 00 01 01   08 0a af 1d c9 1d ce 86 |
+	| 34 82 51 55 49 54 0d 0a   
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 58
+Identification: 0xd57a (54650)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bc9
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191150751
+Acknowledgment number: 2990118367
+Flags: 0x18 (PSH) (ACK)
+Window size value: 123
+Checksum: 0x29a7
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964829
+		Timestamp echo reply: 3464901762
+
+-----------------------Simple Mail Transfer Protocol
+QUIT
+
+
+
+*****************************************Packet Number 23*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 34 a0 70 40 00 38 06   78 d9 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   95 df be 35 18 a5 80 10 |
+	| 01 0e fb 79 00 00 01 01   08 0a ce 86 34 9c af 1d |
+	| c9 1d 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xa070 (41072)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x78d9
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990118367
+Acknowledgment number: 3191150757
+Flags: 0x10 (ACK)
+Window size value: 270
+Checksum: 0xfb79
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901788
+		Timestamp echo reply: 2937964829
+
+
+
+*****************************************Packet Number 24*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 84 a0 71 40 00 38 06   78 88 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   95 df be 35 18 a5 80 18 |
+	| 01 0e 3c a1 00 00 01 01   08 0a ce 86 34 9c af 1d |
+	| c9 1d 32 32 31 20 78 78   78 78 78 78 78 78 78 78 |
+	| 78 78 78 78 78 31 2e 78   78 78 2e 63 6f 6d 20 47 |
+	| 6f 6f 64 62 79 65 20 78   78 78 78 78 78 78 78 78 |
+	| 78 78 78 78 2e 78 78 78   2e 63 6f 6d 2c 20 63 6c |
+	| 6f 73 69 6e 67 20 63 6f   6e 6e 65 63 74 69 6f 6e |
+	| 0d 0a 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 132
+Identification: 0xa071 (41073)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x7888
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990118367
+Acknowledgment number: 3191150757
+Flags: 0x18 (PSH) (ACK)
+Window size value: 270
+Checksum: 0x3ca1
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901788
+		Timestamp echo reply: 2937964829
+
+-----------------------Simple Mail Transfer Protocol
+221 xxxxxxxxxxxxxxx1.xxx.com Goodbye xxxxxxxxxxxxx.xxx.com, closing connection
+
+
+
+*****************************************Packet Number 25*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 34 d5 7b 40 00 40 06   3b ce 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   18 a5 b2 39 96 2f 80 10 |
+	| 00 7b fb bb 00 00 01 01   08 0a af 1d c9 1e ce 86 |
+	| 34 9c 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xd57b (54651)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bce
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191150757
+Acknowledgment number: 2990118447
+Flags: 0x10 (ACK)
+Window size value: 123
+Checksum: 0xfbbb
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964830
+		Timestamp echo reply: 3464901788
+
+
+
+*****************************************Packet Number 26*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 34 a0 72 40 00 38 06   78 d7 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   96 2f be 35 18 a5 80 11 |
+	| 01 0e fb 28 00 00 01 01   08 0a ce 86 34 9c af 1d |
+	| c9 1d 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xa072 (41074)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x78d7
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990118447
+Acknowledgment number: 3191150757
+Flags: 0x11 (FIN) (ACK)
+Window size value: 270
+Checksum: 0xfb28
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901788
+		Timestamp echo reply: 2937964829
+
+
+
+*****************************************Packet Number 27*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 00 0c 07 ac 01 00 13   72 c4 f1 e1 08 00 45 00 |
+	| 00 34 d5 7c 40 00 40 06   3b cd 0a b4 9c f9 40 ec |
+	| 40 e1 b6 4f 00 19 be 35   18 a5 b2 39 96 30 80 11 |
+	| 00 7b fb b9 00 00 01 01   08 0a af 1d c9 1e ce 86 |
+	| 34 9c 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:13:72:c4:f1:e1, Dst: 00:00:0c:07:ac:01:01  
+Destination: (00:00:0c:07:ac:01)
+Source: (00:13:72:c4:f1:e1)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 10.180.156.249, Dst: 64.236.64.225 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xd57c (54652)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 64
+Protocol: TCP (6)
+Header Checksum: 0x3bcd
+Source: 10.180.156.249
+Destination: 64.236.64.225
+
+---------------Transmission Control Protocol
+Source port: 46671
+Destination port: 25
+Sequence number: 3191150757
+Acknowledgment number: 2990118448
+Flags: 0x11 (FIN) (ACK)
+Window size value: 123
+Checksum: 0xfbb9
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 2937964830
+		Timestamp echo reply: 3464901788
+
+
+
+*****************************************Packet Number 28*************************************
+
+	Raw format :
+	-----------------------------------------------------
+	| 00 13 72 c4 f1 e1 00 0e   d6 0b 98 80 08 00 45 00 |
+	| 00 34 a0 73 40 00 38 06   78 d6 40 ec 40 e1 0a b4 |
+	| 9c f9 00 19 b6 4f b2 39   96 30 be 35 18 a6 80 10 |
+	| 01 0e fb 26 00 00 01 01   08 0a ce 86 34 9c af 1d |
+	| c9 1e 
+	-----------------------------------------------------
+
+Ethernet II, Src: 00:0e:d6:0b:98:80, Dst: 00:13:72:c4:f1:e1:e1  
+Destination: (00:13:72:c4:f1:e1)
+Source: (00:0e:d6:0b:98:80)
+Type: IPv4 (0x0800)
+
+--------Internet Protocol Version 4, Src: 64.236.64.225, Dst: 10.180.156.249 
+Version: 4
+Header Length: 20 bytes 
+Type of service: 0x00
+Total Lenght: 52
+Identification: 0xa073 (41075)
+Flags: 0x0040	
+	Don't fragment 
+Time to live: 56
+Protocol: TCP (6)
+Header Checksum: 0x78d6
+Source: 64.236.64.225
+Destination: 10.180.156.249
+
+---------------Transmission Control Protocol
+Source port: 25
+Destination port: 46671
+Sequence number: 2990118448
+Acknowledgment number: 3191150758
+Flags: 0x10 (ACK)
+Window size value: 270
+Checksum: 0xfb26
+Urgent pointer: 0
+Options: (12 bytes) 
+	Kind: No-Operation (1)
+	Kind: No-Operation (1)
+	Kind: Timestamps(8)
+		Length: 10
+		Timestamp value 3464901788
+		Timestamp echo reply: 2937964830
+
+
+
+
+
+
+Finished !! Thank you , Au revoir !

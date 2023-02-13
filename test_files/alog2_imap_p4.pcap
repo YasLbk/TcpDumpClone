@@ -1,0 +1,56 @@
+Capturing packets from the file imap_p4.pcap 
+
+--------------------------------------------------------------------------------------------
+#Frame Number 1 
+Ethernet II, Src: 00:0f:f7:76:82:80, Dst: 00:00:5e:00:01:01:01  
+--------Internet Protocol Version 4, Src: 10.0.0.1, Dst: 10.0.0.2  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 48
+
+---------------Transmission Control Protocol
+Flags: 0x02 (SYN)  Src port: 4643   ,Dst port: 143  ,Seq: -1983315098  ,Ack: 0  Window size value: 32767  Checksum: 0xc8c9  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 2 
+Ethernet II, Src: 00:1d:b5:ce:ef:c0, Dst: 00:0f:f7:76:82:80:80  
+--------Internet Protocol Version 4, Src: 10.0.0.2, Dst: 10.0.0.1  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 48
+
+---------------Transmission Control Protocol
+Flags: 0x12 (SYN) (ACK)  Src port: 143   ,Dst port: 4643  ,Seq: 2135612210  ,Ack: -1983315097  Window size value: 5840  Checksum: 0xd73c  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 3 
+Ethernet II, Src: 00:0f:f7:76:82:80, Dst: 00:00:5e:00:01:01:01  
+--------Internet Protocol Version 4, Src: 10.0.0.1, Dst: 10.0.0.2  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 40
+
+---------------Transmission Control Protocol
+Flags: 0x10 (ACK)  Src port: 4643   ,Dst port: 143  ,Seq: -1983315097  ,Ack: 2135612211  Window size value: 33936  Checksum: 0x9640  
+
+
+--------------------------------------------------------------------------------------------
+#Frame Number 4 
+Ethernet II, Src: 00:1d:b5:ce:ef:c0, Dst: 00:0f:f7:76:82:80:80  
+--------Internet Protocol Version 4, Src: 10.0.0.2, Dst: 10.0.0.1  
+	IHL: 20 bytes
+ 	Type of service: 0x00
+ 	Total Lenght: 58
+
+---------------Transmission Control Protocol
+Flags: 0x18 (PSH) (ACK)  Src port: 143   ,Dst port: 4643  ,Seq: 2135612211  ,Ack: -1983315097  Window size value: 5840  Checksum: 0xd565  
+
+-----------------------Internet Message Access Protocol
+
+
+
+
+
+Finished !! Thank you , Au revoir !
